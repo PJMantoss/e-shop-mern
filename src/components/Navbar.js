@@ -11,7 +11,11 @@ const Wrapper = styled.div`
 `;
 
 const Navbar = () => {
-  return <Container>Navbar</Container>;
+  return (
+  <Container>
+      <Wrapper></Wrapper>
+  </Container>
+  );
 };
 
 export default Navbar;
