@@ -27,6 +27,7 @@ const Navbar = () => {
           <Left>
               <Language>EN</Language>
           </Left>
+          <SearchContainer></SearchContainer>
           <Center>Center</Center>
           <Right>Right</Right>
       </Wrapper>
