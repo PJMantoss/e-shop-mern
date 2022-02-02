@@ -8,18 +8,26 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
+    display: flex;
+    justify-content: space-between;
     padding: 10px 20px;
 `;
 
-const Left = styled.div``;
-const Center = styled.div``;
-const Right = styled.div``;
+const Language = styled.div`
+    font-size: 14px;
+`;
+
+const Left = styled.div`flex:1;`;
+const Center = styled.div`flex:1;`;
+const Right = styled.div`flex:1;`;
 
 const Navbar = () => {
   return (
   <Container>
       <Wrapper>
           <Left>Left</Left>
+          <Center>Center</Center>
+          <Right>Right</Right>
       </Wrapper>
   </Container>
   );
