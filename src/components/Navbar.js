@@ -21,6 +21,10 @@ const Left = styled.div`flex:1;`;
 const Center = styled.div`flex:1;`;
 const Right = styled.div`flex:1;`;
 
+const SearchContainer = styled.div`
+    border: 1px solid lightgray;
+`;
+
 const Navbar = () => {
   return (
   <Container>
