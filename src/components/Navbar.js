@@ -15,6 +15,7 @@ const Wrapper = styled.div`
 
 const Language = styled.div`
     font-size: 14px;
+    cursor: pointer;
 `;
 
 const Left = styled.div`flex:1;`;
@@ -25,7 +26,9 @@ const Navbar = () => {
   return (
   <Container>
       <Wrapper>
-          <Left>Left</Left>
+          <Left>
+              <Language>EN</Language>
+          </Left>
           <Center>Center</Center>
           <Right>Right</Right>
       </Wrapper>
