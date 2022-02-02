@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const Container = styled.div`
     height: 60px;
     background-color: black;
+    color: white;
 `;
 
 const Wrapper = styled.div`
@@ -17,7 +18,9 @@ const Right = styled.div``;
 const Navbar = () => {
   return (
   <Container>
-      <Wrapper></Wrapper>
+      <Wrapper>
+          <Left>Left</Left>
+      </Wrapper>
   </Container>
   );
 };
