@@ -48,6 +48,7 @@ const Right = styled.div`flex:1;`;
 
 const MenuItem = styled.div`
     font-size: 14px;
+    cursor: pointer;
 `;
 
 const Navbar = () => {
