@@ -35,7 +35,9 @@ const Input = styled.input`
     border: none;
 `;
 
-const Center = styled.div`flex:1;`;
+const Center = styled.div`
+    flex:1;
+`;
 
 const Logo = styled.h1`
     font-weight: bold;
