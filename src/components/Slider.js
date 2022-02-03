@@ -8,7 +8,11 @@ const Container = styled.div`
 `;
 
 const Slider = () => {
-  return <div></div>;
+  return (
+      <div>
+          <Container></Container>
+      </div>
+      );
 };
 
 export default Slider;
