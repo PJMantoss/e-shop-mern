@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import SearchIcon from '@mui/icons-material/Search';
+import { SearchIcon, ShoppingCartOutlined } from '@mui/icons-material';
 import Badge from '@mui/material/Badge';
 
 const Container = styled.div`
@@ -71,7 +71,7 @@ const Navbar = () => {
               <MenuItem>SIGN IN</MenuItem>
               <MenuItem>
               <Badge badgeContent={4} color="secondary">
-                <MailIcon color="action" />
+                <ShoppingCartOutlined color="action" />
               </Badge>
               </MenuItem>
           </Right>
