@@ -31,6 +31,10 @@ const SearchContainer = styled.div`
     padding: 5px;
 `;
 
+const Input = styled.input`
+    
+`;
+
 const Center = styled.div`flex:1;`;
 const Right = styled.div`flex:1;`;
 
@@ -41,6 +45,7 @@ const Navbar = () => {
           <Left>
               <Language>EN</Language>
               <SearchContainer>
+                  <Input />
                 <SearchIcon />
               </SearchContainer>
           </Left>
