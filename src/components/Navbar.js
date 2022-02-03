@@ -49,6 +49,7 @@ const Logo = styled.h1`
 const Right = styled.div`
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     flex:1;
 `;
 
