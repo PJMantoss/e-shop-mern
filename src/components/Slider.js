@@ -30,10 +30,10 @@ const Slider = () => {
   return (
       <div>
           <Container>
-              <Arrow>
+              <Arrow direction="left">
                   <ArrowLeftOutlinedIcon />
               </Arrow>
-              <Arrow>
+              <Arrow direction="right">
                   <ArrowRightOutlinedIcon />
               </Arrow>
           </Container>
