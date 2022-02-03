@@ -17,7 +17,11 @@ const Language = styled.div`
     cursor: pointer;
 `;
 
-const Left = styled.div`flex:1;`;
+const Left = styled.div`
+    display: flex;
+    align-items: center;
+    flex:1;
+`;
 const Center = styled.div`flex:1;`;
 const Right = styled.div`flex:1;`;
 
