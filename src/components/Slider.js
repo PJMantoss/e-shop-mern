@@ -8,6 +8,8 @@ const Container = styled.div`
     width: 100%;
     height: 100vh;
     display: flex;
+    position: relative;
+    background-color: coral;
 `;
 
 const Arrow = styled.div`
