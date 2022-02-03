@@ -58,7 +58,7 @@ const Navbar = () => {
               </SearchContainer>
           </Left>
           <Center>
-              <Logo>MERN E-SHop</Logo>
+              <Logo>E-SHop</Logo>
           </Center>
           <Right>Right</Right>
       </Wrapper>
