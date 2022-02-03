@@ -37,6 +37,7 @@ const Input = styled.input`
 
 const Center = styled.div`
     flex:1;
+    text-align: center;
 `;
 
 const Logo = styled.h1`
