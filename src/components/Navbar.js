@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SearchIcon, ShoppingCartOutlined } from '@mui/icons-material';
+import {SearchIcon} from '@mui/icons-material/Search';
 import Badge from '@mui/material/Badge';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const Container = styled.div`
     height: 60px;
@@ -45,11 +46,7 @@ const Logo = styled.h1`
     font-weight: bold;
 `;
 
-const Right = styled.div`
-    flex:1;
-    display: flex;
-    align-items: center;
-`;
+const Right = styled.div`flex:1;`;
 
 const MenuItem = styled.div`
     font-size: 14px;
@@ -75,7 +72,7 @@ const Navbar = () => {
               <MenuItem>SIGN IN</MenuItem>
               <MenuItem>
               <Badge badgeContent={4} color="secondary">
-                <ShoppingCartOutlined />
+                <MailIcon color="action" />
               </Badge>
               </MenuItem>
           </Right>
