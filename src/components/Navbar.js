@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {SearchIcon} from '@mui/icons-material/Search';
+import {SearchIcon} from '@mui/icons-material/SearchIcon';
 import Badge from '@mui/material/Badge';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
