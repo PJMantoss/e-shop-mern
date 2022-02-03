@@ -27,6 +27,7 @@ const Arrow = styled.div`
     left: ${props => props.direction === "left" && "10px"};
     right: ${props => props.direction === "right" && "10px"};
     cursor: pointer;
+    opacity: 0.7;
 `;
 
 const Slider = () => {
