@@ -22,12 +22,13 @@ const Left = styled.div`
     align-items: center;
     flex:1;
 `;
-const Center = styled.div`flex:1;`;
-const Right = styled.div`flex:1;`;
 
 const SearchContainer = styled.div`
     border: 1px solid lightgray;
 `;
+
+const Center = styled.div`flex:1;`;
+const Right = styled.div`flex:1;`;
 
 const Navbar = () => {
   return (
