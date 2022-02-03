@@ -46,6 +46,10 @@ const Logo = styled.h1`
 
 const Right = styled.div`flex:1;`;
 
+const MenuItem = styled.div`
+    font-size: 14px;
+`;
+
 const Navbar = () => {
   return (
   <Container>
