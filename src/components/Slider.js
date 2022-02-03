@@ -20,7 +20,9 @@ const Slider = () => {
   return (
       <div>
           <Container>
-              <Arrow></Arrow>
+              <Arrow>
+                  <ArrowLeftOutlinedIcon />
+              </Arrow>
           </Container>
       </div>
       );
