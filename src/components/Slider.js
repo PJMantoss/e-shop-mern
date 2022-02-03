@@ -21,6 +21,9 @@ const Arrow = styled.div`
     align-items: center;
     justify-content: center;
     position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 `;
 
 const Slider = () => {
