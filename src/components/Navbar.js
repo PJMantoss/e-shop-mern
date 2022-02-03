@@ -36,10 +36,10 @@ const Navbar = () => {
       <Wrapper>
           <Left>
               <Language>EN</Language>
+              <SearchContainer>
+                <SearchIcon />
+              </SearchContainer>
           </Left>
-          <SearchContainer>
-              <SearchIcon />
-          </SearchContainer>
           <Center>Center</Center>
           <Right>Right</Right>
       </Wrapper>
