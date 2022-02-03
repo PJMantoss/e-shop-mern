@@ -69,7 +69,11 @@ const Navbar = () => {
           <Right>
               <MenuItem>REGISTER</MenuItem>
               <MenuItem>SIGN IN</MenuItem>
-              <MenuItem></MenuItem>
+              <MenuItem>
+              <Badge badgeContent={4} color="secondary">
+                <MailIcon color="action" />
+              </Badge>
+              </MenuItem>
           </Right>
       </Wrapper>
   </Container>
