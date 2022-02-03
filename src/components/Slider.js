@@ -17,6 +17,7 @@ const Arrow = styled.div`
     height: 50px;
     background-color: #fff7f7;
     border-radius: 50%;
+    position: absolute;
 `;
 
 const Slider = () => {
