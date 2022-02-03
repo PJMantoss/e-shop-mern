@@ -25,6 +25,8 @@ const Left = styled.div`
 
 const SearchContainer = styled.div`
     border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
 `;
 
 const Center = styled.div`flex:1;`;
