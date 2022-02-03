@@ -67,7 +67,7 @@ const Navbar = () => {
           </Center>
           <Right>
               <MenuItem>REGISTER</MenuItem>
-              <MenuItem></MenuItem>
+              <MenuItem>SIGN IN</MenuItem>
               <MenuItem></MenuItem>
           </Right>
       </Wrapper>
