@@ -11,9 +11,10 @@ const Container = styled.div`
 `;
 
 const Arrow = styled.div`
-    width: 100%;
-    height: 100vh;
-    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #fff7f7;
+    border-radius: 50%;
 `;
 
 const Slider = () => {
