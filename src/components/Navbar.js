@@ -65,7 +65,9 @@ const Navbar = () => {
           <Center>
               <Logo>E-SHop</Logo>
           </Center>
-          <Right>Right</Right>
+          <Right>
+              <MenuItem></MenuItem>
+          </Right>
       </Wrapper>
   </Container>
   );
