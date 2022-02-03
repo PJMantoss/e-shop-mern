@@ -8,6 +8,8 @@ const Container = styled.div`
     height: 30px;
     background-color: teal;
     color: white;
+    font-size: 14px;
+    font-weight: bold;
 `;
 
 export const Announcement = () => {
