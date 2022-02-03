@@ -45,7 +45,11 @@ const Logo = styled.h1`
     font-weight: bold;
 `;
 
-const Right = styled.div`flex:1;`;
+const Right = styled.div`
+    flex:1;
+    display: flex;
+    align-items: center;
+`;
 
 const MenuItem = styled.div`
     font-size: 14px;
