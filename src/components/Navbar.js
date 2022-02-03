@@ -67,6 +67,8 @@ const Navbar = () => {
           </Center>
           <Right>
               <MenuItem></MenuItem>
+              <MenuItem></MenuItem>
+              <MenuItem></MenuItem>
           </Right>
       </Wrapper>
   </Container>
