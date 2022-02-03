@@ -8,10 +8,18 @@ const Container = styled.div`
     display: flex;
 `;
 
+const Arrow = styled.div`
+    width: 100%;
+    height: 100vh;
+    display: flex;
+`;
+
 const Slider = () => {
   return (
       <div>
-          <Container></Container>
+          <Container>
+              <Arrow></Arrow>
+          </Container>
       </div>
       );
 };
