@@ -1,4 +1,5 @@
 import React from 'react';
+import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 
 import styled from 'styled-components';
 
