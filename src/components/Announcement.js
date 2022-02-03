@@ -12,6 +12,9 @@ const Container = styled.div`
     font-weight: bold;
 `;
 
-export const Announcement = () => {
+const Announcement = () => {
   return <div></div>;
 };
+
+
+export default Announcement;
