@@ -71,9 +71,9 @@ const Slider = () => {
                     </ImgContainer>
 
                     <InfoContainer>
-                        <Title></Title>
+                        <Title>Summer Sales</Title>
                         <Desc></Desc>
-                        <Button></Button>
+                        <Button>Shop Now</Button>
                     </InfoContainer>
                   </Slide>
               </Wrapper>
