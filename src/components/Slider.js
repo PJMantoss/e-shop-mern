@@ -36,6 +36,7 @@ const Image = styled.img`
 `;
 
 const Title = styled.h1``;
+const Desc = styled.p``;
 
 const Arrow = styled.div`
     width: 50px;
