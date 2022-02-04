@@ -13,11 +13,11 @@ const Container = styled.div`
 
 const Wrapper = styled.div`
     height: 100%;
-    display: flex;
-    align-items: center;
 `;
 
 const slide = styled.div`
+    display: flex;
+    align-items: center;
 `;
 
 const Arrow = styled.div`
