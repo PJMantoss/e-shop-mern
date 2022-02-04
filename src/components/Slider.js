@@ -72,7 +72,7 @@ const Slider = () => {
 
                     <InfoContainer>
                         <Title>Summer Sales</Title>
-                        <Desc></Desc>
+                        <Desc>Don't Compromise on Stle. Get 30% Off!</Desc>
                         <Button>Shop Now</Button>
                     </InfoContainer>
                   </Slide>
