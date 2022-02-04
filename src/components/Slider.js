@@ -15,12 +15,14 @@ const Wrapper = styled.div`
     height: 100%;
 `;
 
-const slide = styled.div`
+const Slide = styled.div`
     display: flex;
     align-items: center;
 `;
 
 const ImageContainer = styled.div``;
+
+const InfoContainer = styled.div``;
 
 const Arrow = styled.div`
     width: 50px;
