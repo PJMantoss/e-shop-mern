@@ -11,7 +11,9 @@ const Container = styled.div`
     position: relative;
 `;
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+    height: 100%;
+`;
 
 const Arrow = styled.div`
     width: 50px;
