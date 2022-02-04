@@ -69,6 +69,7 @@ const Slider = () => {
                     <ImgContainer>
                         <Image src="https://i.ibb.co/XsdmR2c/1.png" />
                     </ImgContainer>
+                    
                     <InfoContainer></InfoContainer>
                   </Slide>
               </Wrapper>
