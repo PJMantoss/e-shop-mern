@@ -28,6 +28,7 @@ const ImgContainer = styled.div`
 
 const InfoContainer = styled.div`
     flex: 1;
+    padding: 50px;
 `;
 
 const Image = styled.img`
