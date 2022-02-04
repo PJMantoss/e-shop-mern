@@ -28,7 +28,8 @@ const InfoContainer = styled.div`
     flex: 1;
 `;
 
-const Image = styled.img``;
+const Image = styled.img`
+`;
 
 const Arrow = styled.div`
     width: 50px;
