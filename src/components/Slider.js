@@ -20,7 +20,7 @@ const Slide = styled.div`
     align-items: center;
 `;
 
-const ImageContainer = styled.div``;
+const ImgContainer = styled.div``;
 
 const InfoContainer = styled.div``;
 
