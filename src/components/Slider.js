@@ -24,6 +24,8 @@ const ImgContainer = styled.div``;
 
 const InfoContainer = styled.div``;
 
+const Image = styled.img``;
+
 const Arrow = styled.div`
     width: 50px;
     height: 50px;
