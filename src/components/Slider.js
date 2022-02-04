@@ -32,7 +32,7 @@ const InfoContainer = styled.div`
 `;
 
 const Image = styled.img`
-    height: 50%;
+    height: 20%;
 `;
 
 const Title = styled.h1``;
