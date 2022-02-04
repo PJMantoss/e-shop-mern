@@ -67,9 +67,9 @@ const Slider = () => {
               <Wrapper>
                   <Slide>
                     <ImgContainer>
-                        <Image src="https://i.ibb.co/XsdmR2c/1.png" />
+                        <Image src="https://images.unsplash.com/photo-1545291730-faff8ca1d4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" />
                     </ImgContainer>
-                    
+
                     <InfoContainer></InfoContainer>
                   </Slide>
               </Wrapper>
