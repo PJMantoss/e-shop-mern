@@ -15,6 +15,8 @@ const Wrapper = styled.div`
     height: 100%;
 `;
 
+const slide = styled.div``;
+
 const Arrow = styled.div`
     width: 50px;
     height: 50px;
