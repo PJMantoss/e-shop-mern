@@ -56,10 +56,12 @@ const Slider = () => {
                   <ArrowLeftOutlinedIcon />
               </Arrow>
               <Wrapper>
-                  <ImgContainer>
-                      <Image src="" />
-                  </ImgContainer>
-                  <InfoContainer></InfoContainer>
+                  <Slide>
+                    <ImgContainer>
+                        <Image src="" />
+                    </ImgContainer>
+                    <InfoContainer></InfoContainer>
+                  </Slide>
               </Wrapper>
               <Arrow direction="right">
                   <ArrowRightOutlinedIcon />
