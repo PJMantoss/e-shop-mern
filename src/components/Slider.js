@@ -31,6 +31,7 @@ const InfoContainer = styled.div`
 `;
 
 const Image = styled.img`
+    height: 80%;
 `;
 
 const Arrow = styled.div`
