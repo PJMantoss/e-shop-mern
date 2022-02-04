@@ -21,6 +21,7 @@ const Slide = styled.div`
 `;
 
 const ImgContainer = styled.div`
+    flex: 1;
 `;
 
 const InfoContainer = styled.div`
