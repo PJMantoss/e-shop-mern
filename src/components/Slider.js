@@ -35,6 +35,8 @@ const Image = styled.img`
     height: 80%;
 `;
 
+const Title = styled.h1``;
+
 const Arrow = styled.div`
     width: 50px;
     height: 50px;
