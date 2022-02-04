@@ -20,6 +20,8 @@ const slide = styled.div`
     align-items: center;
 `;
 
+const ImageContainer = styled.div``;
+
 const Arrow = styled.div`
     width: 50px;
     height: 50px;
