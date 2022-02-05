@@ -11,6 +11,6 @@ export const sliderItems = [
         image: "",
         title: "AUTUMN COLLECTION",
         desc: "",
-        bg: "fc1ed"
+        bg: "fcf1ed"
     },
 ];
