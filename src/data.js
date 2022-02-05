@@ -4,7 +4,7 @@ export const sliderItems = [
         image: "SUMMER SALE",
         title: "",
         desc: "",
-        bg: ""
+        bg: "f5fafd"
     },
     {
         id: 2,
