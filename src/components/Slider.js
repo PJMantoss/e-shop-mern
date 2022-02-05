@@ -40,6 +40,9 @@ const Title = styled.h1`
 `;
 const Desc = styled.p`
     margin: 50px 0;
+    font-size: 20px;
+    font-weight: 500px;
+    letter-spacing: 3px;
 `;
 
 const Button = styled.button`
