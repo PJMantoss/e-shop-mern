@@ -82,7 +82,7 @@ const Slider = () => {
   return (
       <div>
           <Container>
-              <Arrow direction="left">
+              <Arrow direction="left" onClick={() => handleClick("left")}>
                   <ArrowLeftOutlinedIcon />
               </Arrow>
               <Wrapper>
