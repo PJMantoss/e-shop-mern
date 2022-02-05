@@ -6,4 +6,11 @@ export const sliderItems = [
         desc: "",
         bg: ""
     },
+    {
+        id: "",
+        image: "",
+        title: "",
+        desc: "",
+        bg: ""
+    },
 ];
