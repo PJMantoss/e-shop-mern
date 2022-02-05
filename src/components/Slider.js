@@ -36,7 +36,7 @@ const Image = styled.img`
 `;
 
 const Title = styled.h1`
-    font-siz: 70px;
+    font-size: 70px;
 `;
 const Desc = styled.p``;
 const Button = styled.button``;
