@@ -13,6 +13,7 @@ const Container = styled.div`
 
 const Wrapper = styled.div`
     height: 100%;
+    display: flex;
 `;
 
 const Slide = styled.div`
