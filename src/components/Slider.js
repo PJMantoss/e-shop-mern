@@ -22,7 +22,7 @@ const Slide = styled.div`
     height: 100vh;
     display: flex;
     align-items: center;
-    background: ${props=>props.bg}
+    background: #${props=>props.bg}
 `;
 
 const ImgContainer = styled.div`
