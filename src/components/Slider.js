@@ -114,7 +114,7 @@ const Slider = () => {
                     </ImgContainer>
 
                     <InfoContainer>
-                        <Title>Popular Sales</Title>
+                        <Title>Winter Sales</Title>
                         <Desc>Don't Compromise on Style. Get 30% Off!</Desc>
                         <Button>Shop Now</Button>
                     </InfoContainer>
