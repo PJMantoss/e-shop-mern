@@ -1,7 +1,7 @@
 export const sliderItems = [
     {
         id: 1,
-        image: "",
+        image: "SUMMER SALE",
         title: "",
         desc: "",
         bg: ""
@@ -9,7 +9,7 @@ export const sliderItems = [
     {
         id: 2,
         image: "",
-        title: "",
+        title: "AUTUMN COLLECTION",
         desc: "",
         bg: ""
     },
