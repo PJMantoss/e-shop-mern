@@ -52,6 +52,7 @@ const Desc = styled.p`
 const Button = styled.button`
     padding:10px;
     font-size: 20px;
+    background: transparent;
 `;
 
 const Arrow = styled.div`
