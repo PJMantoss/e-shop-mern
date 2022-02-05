@@ -1,13 +1,13 @@
 export const sliderItems = [
     {
-        id: "",
+        id: 1,
         image: "",
         title: "",
         desc: "",
         bg: ""
     },
     {
-        id: "",
+        id: 2,
         image: "",
         title: "",
         desc: "",
