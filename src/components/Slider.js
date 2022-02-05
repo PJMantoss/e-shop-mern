@@ -34,7 +34,7 @@ const InfoContainer = styled.div`
 const Image = styled.img`
     display: block;
     max-width: 100%;
-    width: 50%;
+    width: 100%;
     height: 50%;
     margin: auto;
 `;
