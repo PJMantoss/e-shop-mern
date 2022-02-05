@@ -15,7 +15,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
     height: 100%;
     display: flex;
-    transform: translateX(-50vw);
+    transform: translateX(-200vw);
 `;
 
 const Slide = styled.div`
