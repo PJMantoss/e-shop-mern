@@ -79,7 +79,7 @@ const Arrow = styled.div`
 `;
 
 const Slider = () => {
-    const handleClick = () => {}
+    const handleClick = () => {};
   return (
       <div>
           <Container>
