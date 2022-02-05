@@ -32,6 +32,7 @@ const InfoContainer = styled.div`
 `;
 
 const Image = styled.img`
+    display: block;
     height: 20%;
 `;
 
