@@ -34,7 +34,8 @@ const InfoContainer = styled.div`
 const Image = styled.img`
     display: block;
     min-width: 50%;
-    height: auto;
+    height: 50%;
+    margin: auto;
 `;
 
 const Title = styled.h1`
