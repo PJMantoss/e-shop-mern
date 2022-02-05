@@ -50,6 +50,8 @@ const Desc = styled.p`
 `;
 
 const Button = styled.button`
+    padding:10px;
+    font-size: 20px;
 `;
 
 const Arrow = styled.div`
