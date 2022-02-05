@@ -107,6 +107,18 @@ const Slider = () => {
                         <Button>Shop Now</Button>
                     </InfoContainer>
                   </Slide>
+
+                  <Slide bg="">
+                    <ImgContainer>
+                        <Image src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                    </ImgContainer>
+
+                    <InfoContainer>
+                        <Title>Popular Sales</Title>
+                        <Desc>Don't Compromise on Style. Get 30% Off!</Desc>
+                        <Button>Shop Now</Button>
+                    </InfoContainer>
+                  </Slide>
               </Wrapper>
               <Arrow direction="right">
                   <ArrowRightOutlinedIcon />
