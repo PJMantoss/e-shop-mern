@@ -80,7 +80,7 @@ const Arrow = styled.div`
 `;
 
 const Slider = () => {
-    const handleClick = () => {};
+    const handleClick = direction => {};
   return (
       <div>
           <Container>
