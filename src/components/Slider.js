@@ -122,7 +122,7 @@ const Slider = () => {
                     </InfoContainer>
                   </Slide>
               </Wrapper>
-              <Arrow direction="right">
+              <Arrow direction="right" onClick={() => handleClick("right")}>
                   <ArrowRightOutlinedIcon />
               </Arrow>
           </Container>
