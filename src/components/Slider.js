@@ -53,7 +53,7 @@ const Button = styled.button`
     padding:10px;
     font-size: 20px;
     background: transparent;
-    outline: 0;
+    
 `;
 
 const Arrow = styled.div`
