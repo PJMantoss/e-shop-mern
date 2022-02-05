@@ -1,1 +1,9 @@
-export const sliderItems = []
+export const sliderItems = [
+    {
+        id: "",
+        image: "",
+        title: "",
+        desc: "",
+        bg: ""
+    },
+];
