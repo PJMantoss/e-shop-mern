@@ -1,8 +1,8 @@
 export const sliderItems = [
     {
         id: 1,
-        image: "SUMMER SALE",
-        title: "",
+        image: "",
+        title: "SUMMER SALE",
         desc: "Don't Compromise on Style. Get 30% Off!",
         bg: "f5fafd"
     },
