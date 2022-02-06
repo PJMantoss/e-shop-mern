@@ -97,7 +97,7 @@ const Slider = () => {
                       </ImgContainer>
                       <InfoContainer>
                           <Title>{}</Title>
-                          <Desc>Don't Compromise on Style. Get 30% Off!</Desc>
+                          <Desc>{}</Desc>
                           <Button>Shop Now</Button>
                       </InfoContainer>
                     </Slide>
