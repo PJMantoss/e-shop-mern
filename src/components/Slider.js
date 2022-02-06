@@ -95,7 +95,6 @@ const Slider = () => {
                       <ImgContainer>
                           <Image src={} />
                       </ImgContainer>
-  
                       <InfoContainer>
                           <Title>Summer Sales</Title>
                           <Desc>Don't Compromise on Style. Get 30% Off!</Desc>
