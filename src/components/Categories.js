@@ -12,8 +12,8 @@ const Container = styled.div`
 const Categories = () => {
   return (
       <Container>
-          {categories.map(category => {
-              <CategoryItem item={category} />
+          {categories.map(item => {
+              <CategoryItem item={item} />
           })}
       </Container>
   );
