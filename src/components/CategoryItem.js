@@ -14,7 +14,9 @@ const CategoryItem = ({item}) => {
   return (
     <Container>
         <Image />
-        <Info></Info>
+        <Info>
+            <Title />
+        </Info>
     </Container>
   );
 };
