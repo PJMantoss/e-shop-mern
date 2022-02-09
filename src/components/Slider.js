@@ -83,7 +83,9 @@ const Arrow = styled.div`
 const Slider = () => {
     const [slideIndex, setSlideIndex] = useState(0);
     const handleClick = direction => {
-        if(direction === "left"){}
+        if(direction === "left"){
+            setSliderIndex(slideIndex)
+        }
     };
 
   return (
