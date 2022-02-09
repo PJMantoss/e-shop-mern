@@ -40,7 +40,7 @@ const Image = styled.img`
     display: block;
     max-width: 100%;
     width: 70%;
-    height: 50%;
+    height: 80%;
     margin: auto;
 `;
 
