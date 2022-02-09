@@ -9,7 +9,9 @@ const Container = styled.div`
 
 const CategoryItem = ({item}) => {
   return (
-    <Container></Container>
+    <Container>
+        Hello Guys!
+    </Container>
   );
 };
 
