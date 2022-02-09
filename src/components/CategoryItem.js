@@ -35,6 +35,9 @@ const Title = styled.h1`
 const Button = styled.button`
     background-color: gray;
     color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
 `;
 
 const CategoryItem = ({item}) => {
