@@ -5,7 +5,9 @@ import styled from 'styled-components';
 const Container = styled.div`
 `;
 
-const Image = styled.img``;
+const Image = styled.img`
+    width: 100%;
+`;
 
 const Info = styled.div``;
 
