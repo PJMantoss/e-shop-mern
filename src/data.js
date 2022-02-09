@@ -18,6 +18,6 @@ export const sliderItems = [
         image: "https://i.ibb.co/cXFnLLV/3.png",
         title: "WINTER COLLECTION",
         desc: "Don't Compromise on Style. Get 30% Off!",
-        bg: "fcf1ed"
+        bg: "fbf0f4"
     }
 ];
