@@ -13,7 +13,7 @@ const Button = styled.button``;
 const CategoryItem = ({item}) => {
   return (
     <Container>
-        <Image />
+        <Image src={} />
         <Info>
             <Title />
             <Button />
