@@ -16,7 +16,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
     height: 100%;
     display: flex;
-    transform: translateX(${props.slideIndex - 100}vw);
+    transform: translateX(${props.slideIndex * - 100}vw);
 `;
 
 const Slide = styled.div`
