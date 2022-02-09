@@ -15,9 +15,11 @@ const Image = styled.img`
     object-fit: cover;
 `;
 
-const Info = styled.div``;
+const Info = styled.div`
+    position: absolute;
+`;
 
-const Title = styled.p``;
+const Title = styled.h1``;
 
 const Button = styled.button``;
 
