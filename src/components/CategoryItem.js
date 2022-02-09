@@ -33,14 +33,14 @@ const Title = styled.h1`
 `;
 
 const Button = styled.button`
-    background-color: gray;
-    color: white;
+    background-color: white;
+    color: gray;
     border: none;
     padding: 10px;
     cursor: pointer;
 `;
 
-const CategoryItem = ({item}) => {
+const CategoryItem = ({ item }) => {
   return (
     <Container>
         <Image src={item.img} />
