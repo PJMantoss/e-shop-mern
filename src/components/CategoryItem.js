@@ -32,7 +32,10 @@ const Title = styled.h1`
     margin-bottom: 20px;
 `;
 
-const Button = styled.button``;
+const Button = styled.button`
+    background-color: gray;
+    color: white;
+`;
 
 const CategoryItem = ({item}) => {
   return (
