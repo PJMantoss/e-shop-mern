@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CategoryItem = () => {
+const CategoryItem = ({item}) => {
   return (
     <Container></Container>
   );
