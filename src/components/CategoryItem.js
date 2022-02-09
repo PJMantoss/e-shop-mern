@@ -17,6 +17,9 @@ const Image = styled.img`
 
 const Info = styled.div`
     position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
 `;
 
 const Title = styled.h1``;
