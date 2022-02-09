@@ -21,3 +21,5 @@ export const sliderItems = [
         bg: "fbf0f4"
     }
 ];
+
+export const categories = [];
