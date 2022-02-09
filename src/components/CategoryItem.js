@@ -38,6 +38,7 @@ const Button = styled.button`
     border: none;
     padding: 10px;
     cursor: pointer;
+    font-weight: 600;
 `;
 
 const CategoryItem = ({ item }) => {
