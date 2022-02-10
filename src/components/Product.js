@@ -18,7 +18,13 @@ const Product = () => {
     <Container>
         <Circle />
         <Image />
-        <Info></Info>
+        <Info>
+            <Icon></Icon>
+
+            <Icon></Icon>
+
+            <Icon></Icon>
+        </Info>
     </Container>
   )
 }
