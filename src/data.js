@@ -40,4 +40,13 @@ export const categories = [
     },
 ];
 
-export const popularProducts = [];
+export const popularProducts = [
+    {
+        id:1,
+        img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+    },
+    {
+        id:2,
+        img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+    },
+];
