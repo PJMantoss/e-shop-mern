@@ -26,11 +26,11 @@ const Info = styled.div``;
 
 const Icon = styled.div``;
 
-const Product = () => {
+const Product = ({ item }) => {
   return (
     <Container>
         <Circle />
-        <Image />
+        <Image src={item.img} />
         <Info>
             <Icon>
                 <ShoppingCartOutlinedIcon />
