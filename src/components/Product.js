@@ -1,5 +1,8 @@
 import React from 'react';
 
+import SearchIcon from '@mui/icons-material/Search';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+
 import styled from 'styled-components';
 
 const Container = styled.div``;
