@@ -1,5 +1,6 @@
 import React from 'react';
 import { popularProducts } from '../data';
+import Product from './Product';
 
 import styled from 'styled-components';
 
