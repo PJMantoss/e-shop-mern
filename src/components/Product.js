@@ -19,7 +19,9 @@ const Product = () => {
         <Circle />
         <Image />
         <Info>
-            <Icon></Icon>
+            <Icon>
+                <ShoppingCartOutlinedIcon />
+            </Icon>
 
             <Icon></Icon>
 
