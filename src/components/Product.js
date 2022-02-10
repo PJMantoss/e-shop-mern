@@ -7,9 +7,10 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 import styled from 'styled-components';
 
 const Container = styled.div`
-    display: flex;
-    margin: 5;
+    flex: 1;
+    margin: 5px;
     min-width: 280px;
+    height: 350px;
 `;
 
 const Circle = styled.div``;
