@@ -8,7 +8,9 @@ const Container = styled.div``;
 const Products = () => {
   return (
     <Container>
-        {popularProducts.map()}
+        {popularProducts.map(item => (
+            <Product />
+        ))}
     </Container>
   )
 }
