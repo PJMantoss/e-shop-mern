@@ -2,6 +2,7 @@ import React from 'react';
 
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
 import styled from 'styled-components';
 
@@ -27,7 +28,9 @@ const Product = () => {
                 <SearchOutlinedIcon />
             </Icon>
 
-            <Icon></Icon>
+            <Icon>
+                <FavoriteBorderOutlinedIcon />
+            </Icon>
         </Info>
     </Container>
   )
