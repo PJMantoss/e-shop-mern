@@ -5,7 +5,7 @@ const Container = styled.div``;
 
 const Products = () => {
   return (
-    <div>Products</div>
+    <Container>Products</Container>
   )
 }
 
