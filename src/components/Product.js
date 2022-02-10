@@ -23,7 +23,9 @@ const Product = () => {
                 <ShoppingCartOutlinedIcon />
             </Icon>
 
-            <Icon></Icon>
+            <Icon>
+                <SearchOutlinedIcon />
+            </Icon>
 
             <Icon></Icon>
         </Info>
