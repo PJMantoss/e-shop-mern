@@ -15,7 +15,9 @@ const Container = styled.div`
 
 const Circle = styled.div``;
 
-const Image = styled.img``;
+const Image = styled.img`
+    height: 75%;
+`;
 
 const Info = styled.div``;
 
