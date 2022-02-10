@@ -39,3 +39,5 @@ export const categories = [
         title: "LIGHT JACKETS",
     },
 ];
+
+export const popularProducts = [];
