@@ -15,7 +15,7 @@ const Circle = styled.div``;
 
 const Image = styled.img``;
 
-const Info = styled.p``;
+const Info = styled.div``;
 
 const Product = () => {
   return (
