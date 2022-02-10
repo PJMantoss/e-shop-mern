@@ -15,7 +15,11 @@ const Info = styled.p``;
 
 const Product = () => {
   return (
-    <Container>Product</Container>
+    <Container>
+        <Circle />
+        <Image />
+        <Info></Info>
+    </Container>
   )
 }
 
