@@ -12,6 +12,8 @@ const Description = styled.p``;
 
 const InputContainer = styled.div``;
 
+const Input = styled.input``;
+
 const Newsletter = () => {
   return (
     <Container>
