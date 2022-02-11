@@ -31,6 +31,7 @@ const Image = styled.img`
 `;
 
 const Info = styled.div`
+    display: flex;
     width: 100px;
     height: 100px;
     position: absolute;
