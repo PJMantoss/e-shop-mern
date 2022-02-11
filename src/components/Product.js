@@ -49,6 +49,7 @@ const Icon = styled.div`
     justify-content: center;
     height: 40px;
     width: 40px;
+    margin: 10px;
 `;
 
 const Product = ({ item }) => {
