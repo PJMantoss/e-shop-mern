@@ -22,7 +22,13 @@ const Desc = styled.div`
     margin-bottom: 20px;
 `;
 
-const InputContainer = styled.div``;
+const InputContainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 40px;
+    border: 1px solid lightgray;
+`;
 
 const Input = styled.input``;
 
