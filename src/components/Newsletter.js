@@ -39,6 +39,8 @@ const Input = styled.input`
 const Button = styled.button`
     flex: 1;
     border: none;
+    background: teal;
+    color: white;
 `;
 
 const Newsletter = () => {
