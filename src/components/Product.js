@@ -15,6 +15,7 @@ const Container = styled.div`
     min-width: 280px;
     height: 350px;
     position: relative;
+    background: #f5fbfd;
 `;
 
 const Circle = styled.div`
