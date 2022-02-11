@@ -10,6 +10,8 @@ const Title = styled.h1``;
 
 const Description = styled.p``;
 
+const InputContainer = styled.div``;
+
 const Newsletter = () => {
   return (
     <Container>
