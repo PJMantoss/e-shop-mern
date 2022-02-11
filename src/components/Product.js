@@ -22,6 +22,7 @@ const Circle = styled.div`
     height: 200px;
     border-radius: 50%;
     background: white;
+    position: absolute;
 `;
 
 const Image = styled.img`
