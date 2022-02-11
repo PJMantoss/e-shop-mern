@@ -33,10 +33,12 @@ const InputContainer = styled.div`
 const Input = styled.input`
     flex: 8;
     border: none;
+    padding-left: 20px;
 `;
 
 const Button = styled.button`
     flex: 1;
+    border: none;
 `;
 
 const Newsletter = () => {
