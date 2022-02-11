@@ -1,5 +1,7 @@
 import React from 'react';
 
+import SendIcon from '@mui/icons-material/Send';
+
 import styled from 'styled-components';
 
 const Newsletter = () => {
@@ -10,7 +12,7 @@ const Newsletter = () => {
         <InputContainer>
             <Input />
             <Button>
-                Send
+                <SendIcon />
             </Button>
         </InputContainer>
     </Container>
