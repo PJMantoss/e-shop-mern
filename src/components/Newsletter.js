@@ -4,7 +4,10 @@ import styled from 'styled-components';
 
 const Newsletter = () => {
   return (
-    <Container>Newsletter</Container>
+    <Container>
+        <Title />
+        <Description />
+    </Container>
   )
 }
 
