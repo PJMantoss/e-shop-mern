@@ -22,7 +22,7 @@ const Newsletter = () => {
         <Title>Newsletter</Title>
         <Desc>Get timely updates </Desc>
         <InputContainer>
-            <Input />
+            <Input placeholder="" />
             <Button>
                 <SendIcon />
             </Button>
