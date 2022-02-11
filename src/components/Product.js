@@ -30,6 +30,10 @@ const Container = styled.div`
     height: 350px;
     position: relative;
     background: #f5fbfd;
+
+    &:hover ${Info}{
+        opacity: 1;
+    }
 `;
 
 const Circle = styled.div`
