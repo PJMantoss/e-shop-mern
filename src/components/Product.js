@@ -16,7 +16,9 @@ const Container = styled.div`
     height: 350px;
 `;
 
-const Circle = styled.div``;
+const Circle = styled.div`
+    
+`;
 
 const Image = styled.img`
     height: 75%;
