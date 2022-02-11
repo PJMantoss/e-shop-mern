@@ -42,6 +42,7 @@ const Info = styled.div`
     left: 0;
     background: gray;
     z-index: 3;
+    opacity: 0;
 `;
 
 const Icon = styled.div`
