@@ -6,6 +6,20 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 
 import styled from 'styled-components';
 
+const Info = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: gray;
+    z-index: 3;
+    opacity: 0;
+`;
+
 const Container = styled.div`
     display: flex;
     align-items: center;
@@ -29,20 +43,6 @@ const Circle = styled.div`
 const Image = styled.img`
     height: 75%;
     z-index: 2;
-`;
-
-const Info = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: gray;
-    z-index: 3;
-    opacity: 0;
 `;
 
 const Icon = styled.div`
