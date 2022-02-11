@@ -33,7 +33,8 @@ const Image = styled.img`
 const Info = styled.div`
     width: 100px;
     height: 100px;
-    
+    top: 0;
+    left: 0;
 `;
 
 const Icon = styled.div``;
