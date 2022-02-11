@@ -5,6 +5,7 @@ import SendIcon from '@mui/icons-material/Send';
 import styled from 'styled-components';
 
 const Container = styled.div`
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
