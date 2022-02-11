@@ -17,7 +17,8 @@ const Container = styled.div`
 `;
 
 const Circle = styled.div`
-    
+    width: 200px;
+    height: 200px;
 `;
 
 const Image = styled.img`
