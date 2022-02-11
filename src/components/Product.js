@@ -30,7 +30,11 @@ const Image = styled.img`
     z-index: 2;
 `;
 
-const Info = styled.div``;
+const Info = styled.div`
+    width: 100px;
+    height: 100px;
+    
+`;
 
 const Icon = styled.div``;
 
