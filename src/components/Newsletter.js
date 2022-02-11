@@ -7,6 +7,9 @@ const Newsletter = () => {
     <Container>
         <Title />
         <Description />
+        <InputContainer>
+            <Input />
+        </InputContainer>
     </Container>
   )
 }
