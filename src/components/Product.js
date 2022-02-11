@@ -53,6 +53,10 @@ const Icon = styled.div`
     margin: 10px;
     background: white;
     border-radius: 50%;
+
+    &:hover{
+        background: #e9f5f5;
+    }
 `;
 
 const Product = ({ item }) => {
