@@ -33,6 +33,7 @@ const Image = styled.img`
 const Info = styled.div`
     width: 100px;
     height: 100px;
+    position: absolute;
     top: 0;
     left: 0;
     background: gray;
