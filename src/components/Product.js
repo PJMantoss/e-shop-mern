@@ -15,7 +15,7 @@ const Info = styled.div`
     position: absolute;
     top: 0;
     left: 0;
-    background: gray;
+    background: rgba(0,0,0,0.2);
     z-index: 3;
     opacity: 0;
 `;
