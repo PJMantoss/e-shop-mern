@@ -50,6 +50,8 @@ const Icon = styled.div`
     height: 40px;
     width: 40px;
     margin: 10px;
+    background: white;
+    border-radius: 50%;
 `;
 
 const Product = ({ item }) => {
