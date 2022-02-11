@@ -43,7 +43,13 @@ const Info = styled.div`
     z-index: 3;
 `;
 
-const Icon = styled.div``;
+const Icon = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+`;
 
 const Product = ({ item }) => {
   return (
