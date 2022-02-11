@@ -35,6 +35,8 @@ const Info = styled.div`
     height: 100px;
     top: 0;
     left: 0;
+    background: gray;
+    z-index: 3;
 `;
 
 const Icon = styled.div``;
