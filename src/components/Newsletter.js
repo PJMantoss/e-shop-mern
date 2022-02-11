@@ -30,7 +30,10 @@ const InputContainer = styled.div`
     border: 1px solid lightgray;
 `;
 
-const Input = styled.input``;
+const Input = styled.input`
+    flex: 8;
+    border: none;
+`;
 
 const Button = styled.button``;
 
