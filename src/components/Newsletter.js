@@ -12,7 +12,10 @@ const Container = styled.div`
     background: #fcf5f5;
 `;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+    font-size: 70px;
+    margin-bottom: 20px;
+`;
 
 const Desc = styled.div``;
 
