@@ -9,6 +9,7 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: #fcf5f5;
 `;
 
 const Title = styled.h1``;
