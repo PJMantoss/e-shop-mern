@@ -17,7 +17,10 @@ const Title = styled.h1`
     margin-bottom: 20px;
 `;
 
-const Desc = styled.div``;
+const Desc = styled.div`
+    font-size: 24px;
+    margin-bottom: 20px;
+`;
 
 const InputContainer = styled.div``;
 
