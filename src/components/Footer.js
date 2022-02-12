@@ -69,9 +69,13 @@ const Right = styled.div`
 `;
 
 const ContactItem = styled.div`
+  display: flex;
+  align-items: center;
 `;
 
-const Payment = styled.img``;
+const Payment = styled.img`
+  width: 50%;
+`;
 
 const Footer = () => {
   return (
