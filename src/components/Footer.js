@@ -47,6 +47,8 @@ const Title = styled.h3``;
 
 const List = styled.ul``;
 
+const ListItem = styled.li``;
+
 const Right = styled.div`
   flex: 1;
   padding: 20px;
@@ -56,12 +58,15 @@ const Footer = () => {
   return (
     <Container>
       <Left>
+        
         <Logo>E-Shop</Logo>
+
         <Desc>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin suscipit libero massa, ut ullamcorper mi tempor ut. Maecenas vel odio sapien. 
           Suspendisse potenti. Duis viverra elit sed tellus cursus bibendum.
         </Desc>
+
         <SocialContainer>
           <SocialIcon color="3b5999">
             <FacebookIcon />
@@ -80,6 +85,7 @@ const Footer = () => {
           </SocialIcon>
         </SocialContainer>
       </Left>
+
       <Center></Center>
       <Right></Right>
     </Container>
