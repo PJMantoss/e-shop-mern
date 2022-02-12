@@ -38,8 +38,12 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo></Logo>
-        <Desc></Desc>
+        <Logo>E-Shop</Logo>
+        <Desc>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Proin suscipit libero massa, ut ullamcorper mi tempor ut. Maecenas vel odio sapien. 
+        Suspendisse potenti. Duis viverra elit sed tellus cursus bibendum.
+        </Desc>
         <SocialContainer>
           <SocialIcon>
             <FacebookIcon />
