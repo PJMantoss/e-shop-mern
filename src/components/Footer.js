@@ -127,7 +127,7 @@ const Footer = () => {
         <ContactItem><EmailIcon />info@e-shop.com</ContactItem>
       </Right>
 
-      <Payment />
+      <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
 
     </Container>
   )
