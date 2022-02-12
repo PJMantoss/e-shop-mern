@@ -68,6 +68,8 @@ const Right = styled.div`
 const ContactItem = styled.div`
 `;
 
+const Payment = styled.img``;
+
 const Footer = () => {
   return (
     <Container>
