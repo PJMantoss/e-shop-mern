@@ -30,6 +30,8 @@ const SocialIcon = styled.div`
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  background: ;
+  color: white;
 `;
 
 const Right = styled.div`
