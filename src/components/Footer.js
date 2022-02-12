@@ -38,12 +38,16 @@ const SocialIcon = styled.div`
   margin-right: 20px;
 `;
 
-const Right = styled.div`
+const Center = styled.div`
   flex: 1;
   padding: 20px;
 `;
 
-const Center = styled.div`
+const Title = styled.h3``;
+
+const List = styled.ul``;
+
+const Right = styled.div`
   flex: 1;
   padding: 20px;
 `;
