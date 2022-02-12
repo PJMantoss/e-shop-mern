@@ -40,10 +40,12 @@ const SocialIcon = styled.div`
 
 const Right = styled.div`
   flex: 1;
+  padding: 20px;
 `;
 
 const Center = styled.div`
   flex: 1;
+  padding: 20px;
 `;
 
 const Footer = () => {
