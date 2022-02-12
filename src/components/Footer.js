@@ -11,6 +11,8 @@ const Container = styled.div`
 `;
 
 const Left = styled.div`
+    display: inherit;
+    flex-direction: column;
     flex: 1;
 `;
 
