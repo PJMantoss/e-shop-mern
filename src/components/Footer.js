@@ -14,6 +14,16 @@ const Left = styled.div`
     flex: 1;
 `;
 
+const Logo = styled.h1``;
+
+const Desc = styled.div``;
+
+const Icon = styled.div``;
+
+const SocialContainer = styled.div``;
+
+const SocialIcon = styled.div``;
+
 const Right = styled.div`
   flex: 1;
 `;
