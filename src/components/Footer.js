@@ -112,7 +112,12 @@ const Footer = () => {
         </List>
       </Center>
 
-      <Right></Right>
+      <Right>
+        <Title>Contact</Title>
+        <ContactItem>644 Ruff Path, Middle Town, PL</ContactItem>
+        <ContactItem>+234 607 777 8888</ContactItem>
+        <ContactItem>info@e-shop.com</ContactItem>
+      </Right>
 
     </Container>
   )
