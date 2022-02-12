@@ -1,5 +1,8 @@
 import React from 'react';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import PinterestIcon from '@mui/icons-material/Pinterest';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 import styled from 'styled-components';
 
@@ -30,11 +33,17 @@ const Footer = () => {
             <FacebookIcon />
           </SocialIcon>
 
-          <SocialIcon></SocialIcon>
+          <SocialIcon>
+            <InstagramIcon />
+          </SocialIcon>
 
-          <SocialIcon></SocialIcon>
+          <SocialIcon>
+            <TwitterIcon />
+          </SocialIcon>
 
-          <SocialIcon></SocialIcon>
+          <SocialIcon>
+            <PinterestIcon />
+          </SocialIcon>
         </SocialContainer>
       </Left>
       <Center></Center>
