@@ -43,9 +43,15 @@ const Center = styled.div`
   padding: 20px;
 `;
 
-const Title = styled.h3``;
+const Title = styled.h3`
+  margin-bottom: 30px;
+`;
 
-const List = styled.ul``;
+const List = styled.ul`
+  list-style: none;
+  margin: 0;
+  padding: 0;
+`;
 
 const ListItem = styled.li``;
 
