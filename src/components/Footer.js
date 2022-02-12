@@ -35,6 +35,7 @@ const SocialIcon = styled.div`
   border-radius: 50%;
   background: #${props => props.color};
   color: white;
+  margin-right: 20px;
 `;
 
 const Right = styled.div`
