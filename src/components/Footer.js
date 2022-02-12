@@ -4,6 +4,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import EmailIcon from '@mui/icons-material/Email';
 
 import styled from 'styled-components';
 
@@ -121,8 +123,8 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem><LocationOnIcon /> 644 Ruff Path, Middle Town, PL</ContactItem>
-        <ContactItem>+234 607 777 8888</ContactItem>
-        <ContactItem>info@e-shop.com</ContactItem>
+        <ContactItem><LocalPhoneIcon />+234 607 777 8888</ContactItem>
+        <ContactItem><EmailIcon />info@e-shop.com</ContactItem>
       </Right>
 
       <Payment />
