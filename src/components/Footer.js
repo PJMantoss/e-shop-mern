@@ -71,6 +71,7 @@ const Right = styled.div`
 const ContactItem = styled.div`
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 `;
 
 const Payment = styled.img`
@@ -129,9 +130,9 @@ const Footer = () => {
         <ContactItem><LocationOnIcon /> 644 Ruff Path, Middle Town, PL</ContactItem>
         <ContactItem><LocalPhoneIcon />+234 607 777 8888</ContactItem>
         <ContactItem><EmailIcon />info@e-shop.com</ContactItem>
-      </Right>
 
-      <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+        <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+      </Right>
 
     </Container>
   )
