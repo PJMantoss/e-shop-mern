@@ -122,6 +122,8 @@ const Footer = () => {
         <ContactItem>info@e-shop.com</ContactItem>
       </Right>
 
+      <Payment />
+
     </Container>
   )
 }
