@@ -26,7 +26,11 @@ const SocialContainer = styled.div`
   display: inherit;
 `;
 
-const SocialIcon = styled.div``;
+const SocialIcon = styled.div`
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+`;
 
 const Right = styled.div`
   flex: 1;
