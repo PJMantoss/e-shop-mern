@@ -87,7 +87,7 @@ const Footer = () => {
       </Left>
 
       <Center>
-        <Title></Title>
+        <Title>Useful Links</Title>
         <List>
           <ListItem>Home</ListItem>
           <ListItem>Cart</ListItem>
