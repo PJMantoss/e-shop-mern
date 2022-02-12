@@ -1,4 +1,6 @@
 import React from 'react';
+import FacebookIcon from '@mui/icons-material/Facebook';
+
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -24,9 +26,9 @@ const Footer = () => {
         <Logo></Logo>
         <Desc></Desc>
         <SocialContainer>
-          <SocialIcon></SocialIcon>
-
-          <SocialIcon></SocialIcon>
+          <SocialIcon>
+            <FacebookIcon />
+          </SocialIcon>
 
           <SocialIcon></SocialIcon>
 
