@@ -23,7 +23,17 @@ const Footer = () => {
       <Left>
         <Logo></Logo>
         <Desc></Desc>
-        <SocialContainer></SocialContainer>
+        <SocialContainer>
+          <SocialIcon></SocialIcon>
+
+          <SocialIcon></SocialIcon>
+
+          <SocialIcon></SocialIcon>
+
+          <SocialIcon></SocialIcon>
+
+          <SocialIcon></SocialIcon>
+        </SocialContainer>
       </Left>
       <Center></Center>
       <Right></Right>
