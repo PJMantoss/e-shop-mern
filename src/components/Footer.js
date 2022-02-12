@@ -58,7 +58,7 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        
+
         <Logo>E-Shop</Logo>
 
         <Desc>
@@ -86,8 +86,23 @@ const Footer = () => {
         </SocialContainer>
       </Left>
 
-      <Center></Center>
+      <Center>
+        <Title></Title>
+        <List>
+          <ListItem>Home</ListItem>
+          <ListItem>Cart</ListItem>
+          <ListItem>Men Fashion</ListItem>
+          <ListItem>Women Fashion</ListItem>
+          <ListItem>Accessories</ListItem>
+          <ListItem>My Account</ListItem>
+          <ListItem>Order Tracking</ListItem>
+          <ListItem>Wish List</ListItem>
+          <ListItem>Terms & Conditions</ListItem>
+        </List>
+      </Center>
+
       <Right></Right>
+
     </Container>
   )
 }
