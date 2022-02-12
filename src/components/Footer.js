@@ -53,19 +53,19 @@ const Footer = () => {
           Suspendisse potenti. Duis viverra elit sed tellus cursus bibendum.
         </Desc>
         <SocialContainer>
-          <SocialIcon>
+          <SocialIcon color="">
             <FacebookIcon />
           </SocialIcon>
 
-          <SocialIcon>
+          <SocialIcon color="">
             <InstagramIcon />
-          </SocialIcon>
+          </SocialIcon >
 
-          <SocialIcon>
+          <SocialIcon color="">
             <TwitterIcon />
           </SocialIcon>
 
-          <SocialIcon>
+          <SocialIcon color="">
             <PinterestIcon />
           </SocialIcon>
         </SocialContainer>
