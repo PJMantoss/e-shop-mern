@@ -18,11 +18,13 @@ const Left = styled.div`
 
 const Logo = styled.h1``;
 
-const Desc = styled.div``;
+const Desc = styled.p`
+    margin: 20px 0;
+`;
 
-const Icon = styled.div``;
-
-const SocialContainer = styled.div``;
+const SocialContainer = styled.div`
+  display: inherit;
+`;
 
 const SocialIcon = styled.div``;
 
