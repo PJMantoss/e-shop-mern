@@ -20,7 +20,11 @@ const Center = styled.div`
 const Footer = () => {
   return (
     <Container>
-      <Left></Left>
+      <Left>
+        <Logo></Logo>
+        <Desc></Desc>
+        <SocialContainer></SocialContainer>
+      </Left>
       <Center></Center>
       <Right></Right>
     </Container>
