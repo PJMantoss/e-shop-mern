@@ -55,7 +55,9 @@ const List = styled.ul`
   padding: 0;
 `;
 
-const ListItem = styled.li``;
+const ListItem = styled.li`
+  width: 50%;
+`;
 
 const Right = styled.div`
   flex: 1;
