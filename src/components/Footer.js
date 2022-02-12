@@ -127,9 +127,9 @@ const Footer = () => {
 
       <Right>
         <Title>Contact</Title>
-        <ContactItem><LocationOnIcon /> 644 Ruff Path, Middle Town, PL</ContactItem>
-        <ContactItem><LocalPhoneIcon />+234 607 777 8888</ContactItem>
-        <ContactItem><EmailIcon />info@e-shop.com</ContactItem>
+        <ContactItem><LocationOnIcon style={{marginRight: "10px"}} /> 644 Ruff Path, Middle Town, PL</ContactItem>
+        <ContactItem><LocalPhoneIcon style={{marginRight: "10px"}} />+234 607 777 8888</ContactItem>
+        <ContactItem><EmailIcon style={{marginRight: "10px"}} />info@e-shop.com</ContactItem>
 
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
