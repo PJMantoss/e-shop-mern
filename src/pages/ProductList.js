@@ -6,14 +6,22 @@ import styled from 'styled-components';
 
 const Container = styled.div``;
 
-const filterContainer = styled.div``;
+const FilterContainer = styled.div``;
+
+const Title = styled.h1``;
+
+const Filter = styled.div``;
 
 const ProductList = () => {
   return (
     <Container>
         <Announcement />
         <Navbar />
-        <filterContainer></filterContainer>
+        <Title></Title>
+        <FilterContainer>
+            <Filter></Filter>
+            <Filter></Filter>
+        </FilterContainer>
     </Container>
   )
 }
