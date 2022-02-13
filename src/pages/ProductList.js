@@ -45,9 +45,9 @@ const ProductList = () => {
                     <Option>White</Option>
                     <Option>Black</Option>
                     <Option>Red</Option>
-                    <Option></Option>
-                    <Option></Option>
-                    <Option></Option>
+                    <Option>Blue</Option>
+                    <Option>Yellow</Option>
+                    <Option>Green</Option>
                 </Select>
             </Filter>
             <Filter>
