@@ -51,9 +51,15 @@ const ProductList = () => {
                 </Select>
             </Filter>
             <Filter>
-                <FilterText>
-                    Sort Clothes:
-                </FilterText>
+                <FilterText>Sort Clothes:</FilterText>
+                <Select>
+                    <Option disabled selected>Size</Option>
+                    <Option>XS</Option>
+                    <Option>S</Option>
+                    <Option>M</Option>
+                    <Option>L</Option>
+                    <Option>XL</Option>
+                </Select>
             </Filter>
         </FilterContainer>
         <Products />
