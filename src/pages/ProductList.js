@@ -28,6 +28,9 @@ const ProductList = () => {
             <Filter>filter1</Filter>
             <Filter>filter2</Filter>
         </FilterContainer>
+        <Product />
+        <Newsletter />
+        <Footer />
     </Container>
   )
 }
