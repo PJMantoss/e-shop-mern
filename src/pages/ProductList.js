@@ -34,8 +34,16 @@ const ProductList = () => {
         <Navbar />
         <Title>Clothes</Title>
         <FilterContainer>
-            <Filter>filter1</Filter>
-            <Filter>filter2</Filter>
+            <Filter>
+                <FilterText>
+                    Filter Clothes
+                </FilterText>
+            </Filter>
+            <Filter>
+                <FilterText>
+                    Sort Clothes
+                </FilterText>
+            </Filter>
         </FilterContainer>
         <Products />
         <Newsletter />
