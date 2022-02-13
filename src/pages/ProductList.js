@@ -22,6 +22,11 @@ const Filter = styled.div`
     margin: 20px;
 `;
 
+const FilterText = styled.span`
+    font-size: 20px;
+    font-weight: 600;
+`;
+
 const ProductList = () => {
   return (
     <Container>
