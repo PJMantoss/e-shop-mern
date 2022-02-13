@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Announcement from '../components/Announcement';
-import Product from '../components/Product';
+import Products from '../components/Products';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 
@@ -32,7 +32,7 @@ const ProductList = () => {
             <Filter>filter1</Filter>
             <Filter>filter2</Filter>
         </FilterContainer>
-        <Product />
+        <Products />
         <Newsletter />
         <Footer />
     </Container>
