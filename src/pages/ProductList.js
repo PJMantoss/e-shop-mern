@@ -27,6 +27,10 @@ const FilterText = styled.span`
     font-weight: 600;
 `;
 
+const Select = styled.select``;
+
+const Option = styled.option``;
+
 const ProductList = () => {
   return (
     <Container>
@@ -36,12 +40,12 @@ const ProductList = () => {
         <FilterContainer>
             <Filter>
                 <FilterText>
-                    Filter Clothes
+                    Filter Clothes:
                 </FilterText>
             </Filter>
             <Filter>
                 <FilterText>
-                    Sort Clothes
+                    Sort Clothes:
                 </FilterText>
             </Filter>
         </FilterContainer>
