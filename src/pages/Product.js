@@ -45,7 +45,11 @@ const FilterContainer = styled.div`
     width: 50%;
 `;
 
-const Filter = styled.div``;
+const Filter = styled.div`
+    display: flex;
+    align-items: center;
+`;
+
 const FilterTitle = styled.span``;
 const FilterColor = styled.div``;
 const FilterSize = styled.select``;
