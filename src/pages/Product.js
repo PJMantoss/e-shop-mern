@@ -12,6 +12,7 @@ const ImageContainer = styled.div``;
 const Image = styled.img``;
 const InfoContainer = styled.div``;
 const Title = styled.h1``;
+const Desc= styled.div``;
 const Price = styled.span``;
 
 const Product = () => {
