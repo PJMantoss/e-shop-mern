@@ -11,9 +11,16 @@ const Wrapper = styled.div`
     display: flex;
     padding: 50px;
 `;
-const ImageContainer = styled.div``;
+const ImageContainer = styled.div`
+    flex: 1;
+`;
+
 const Image = styled.img``;
-const InfoContainer = styled.div``;
+
+const InfoContainer = styled.div`
+    flex: 1;
+`;
+
 const Title = styled.h1``;
 const Desc= styled.p``;
 const Price = styled.span``;
