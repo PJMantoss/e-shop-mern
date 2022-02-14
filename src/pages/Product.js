@@ -6,7 +6,12 @@ const Container = styled.div``;
 
 const Product = () => {
   return (
-    <Container>Product</Container>
+    <Container>
+        <Announcement />
+        <Navbar />
+        <Newsletter />
+        <Footer />
+    </Container>
   )
 }
 
