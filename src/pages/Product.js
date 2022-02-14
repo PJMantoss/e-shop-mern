@@ -56,6 +56,16 @@ const Product = () => {
                 </Desc>
                 <Price>$20</Price>
             </InfoContainer>
+            <FilterContainer>
+                <Filter>
+                    <FilterTitle>Color</FilterTitle>
+                    <FilterColor color="black" />
+                    <FilterColor color="darkblue" />
+                    <FilterColor color="blue" />
+                </Filter>
+
+                <Filter></Filter>
+            </FilterContainer>
         </Wrapper>
         <Newsletter />
         <Footer />
