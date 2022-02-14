@@ -13,6 +13,10 @@ const Product = () => {
     <Container>
         <Announcement />
         <Navbar />
+        <Wrapper>
+            <ImageContainer></ImageContainer>
+            <InfoContainer></InfoContainer>
+        </Wrapper>
         <Newsletter />
         <Footer />
     </Container>
