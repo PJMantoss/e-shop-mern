@@ -25,7 +25,7 @@ const Product = () => {
                 <Image src="" />
             </ImageContainer>
             <InfoContainer>
-                <Title></Title>
+                <Title>Denim Jumsuit</Title>
                 <Desc></Desc>
                 <Price></Price>
             </InfoContainer>
