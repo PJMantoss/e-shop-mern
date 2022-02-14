@@ -34,7 +34,10 @@ const Desc= styled.p`
     margin: 20px 0;
 `;
 
-const Price = styled.span``;
+const Price = styled.span`
+    font-weight: 100;
+    font-size: 40px;
+`;
 
 const Product = () => {
   return (
