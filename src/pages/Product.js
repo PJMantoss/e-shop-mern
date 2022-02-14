@@ -14,8 +14,14 @@ const Product = () => {
         <Announcement />
         <Navbar />
         <Wrapper>
-            <ImageContainer></ImageContainer>
-            <InfoContainer></InfoContainer>
+            <ImageContainer>
+                <Image src="" />
+            </ImageContainer>
+            <InfoContainer>
+                <Title></Title>
+                <Desc></Desc>
+                <Price></Price>
+            </InfoContainer>
         </Wrapper>
         <Newsletter />
         <Footer />
