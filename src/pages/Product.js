@@ -26,7 +26,10 @@ const Product = () => {
             </ImageContainer>
             <InfoContainer>
                 <Title>Denim Jumsuit</Title>
-                <Desc></Desc>
+                <Desc>
+                    Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me.
+                    Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me.
+                </Desc>
                 <Price></Price>
             </InfoContainer>
         </Wrapper>
