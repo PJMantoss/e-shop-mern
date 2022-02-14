@@ -30,7 +30,7 @@ const Product = () => {
                     Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me.
                     Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me.
                 </Desc>
-                <Price></Price>
+                <Price>$20</Price>
             </InfoContainer>
         </Wrapper>
         <Newsletter />
