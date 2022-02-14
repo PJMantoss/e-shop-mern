@@ -56,7 +56,10 @@ const FilterTitle = styled.span`
     font-weight: 200;
 `;
 
-const FilterColor = styled.div``;
+const FilterColor = styled.div`
+
+`;
+
 const FilterSize = styled.select``;
 const FilterSizeOption = styled.option``;
 
@@ -81,7 +84,7 @@ const Product = () => {
                         <FilterTitle>Color</FilterTitle>
                         <FilterColor color="black" />
                         <FilterColor color="darkblue" />
-                        <FilterColor color="blue" />
+                        <FilterColor color="gray" />
                     </Filter>
 
                     <Filter>
