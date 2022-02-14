@@ -23,6 +23,7 @@ const Image = styled.img`
 
 const InfoContainer = styled.div`
     flex: 1;
+    padding: 0 50px;
 `;
 
 const Title = styled.h1``;
