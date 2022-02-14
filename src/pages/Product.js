@@ -57,7 +57,10 @@ const FilterTitle = styled.span`
 `;
 
 const FilterColor = styled.div`
-
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: ${props => props.color}
 `;
 
 const FilterSize = styled.select``;
