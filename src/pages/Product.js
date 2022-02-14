@@ -8,7 +8,8 @@ import styled from 'styled-components';
 
 const Container = styled.div``;
 const Wrapper = styled.div`
-    display: flex
+    display: flex;
+    padding: 50px;
 `;
 const ImageContainer = styled.div``;
 const Image = styled.img``;
