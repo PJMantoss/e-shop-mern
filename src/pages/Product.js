@@ -67,26 +67,26 @@ const Product = () => {
                     Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me.
                 </Desc>
                 <Price>$20</Price>
-            </InfoContainer>
-            <FilterContainer>
-                <Filter>
-                    <FilterTitle>Color</FilterTitle>
-                    <FilterColor color="black" />
-                    <FilterColor color="darkblue" />
-                    <FilterColor color="blue" />
-                </Filter>
+                <FilterContainer>
+                    <Filter>
+                        <FilterTitle>Color</FilterTitle>
+                        <FilterColor color="black" />
+                        <FilterColor color="darkblue" />
+                        <FilterColor color="blue" />
+                    </Filter>
 
-                <Filter>
-                    <FilterTitle>Size</FilterTitle>
-                    <FilterSize>
-                        <FilterSizeOption>XS</FilterSizeOption>
-                        <FilterSizeOption>S</FilterSizeOption>
-                        <FilterSizeOption>M</FilterSizeOption>
-                        <FilterSizeOption>L</FilterSizeOption>
-                        <FilterSizeOption>XL</FilterSizeOption>
-                    </FilterSize>
-                </Filter>
-            </FilterContainer>
+                    <Filter>
+                        <FilterTitle>Size</FilterTitle>
+                        <FilterSize>
+                            <FilterSizeOption>XS</FilterSizeOption>
+                            <FilterSizeOption>S</FilterSizeOption>
+                            <FilterSizeOption>M</FilterSizeOption>
+                            <FilterSizeOption>L</FilterSizeOption>
+                            <FilterSizeOption>XL</FilterSizeOption>
+                        </FilterSize>
+                    </Filter>
+                </FilterContainer>
+            </InfoContainer>
         </Wrapper>
         <Newsletter />
         <Footer />
