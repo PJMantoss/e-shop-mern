@@ -26,8 +26,14 @@ const InfoContainer = styled.div`
     padding: 0 50px;
 `;
 
-const Title = styled.h1``;
-const Desc= styled.p``;
+const Title = styled.h1`
+    font-weight: 200;
+`;
+
+const Desc= styled.p`
+    margin: 20px 0;
+`;
+
 const Price = styled.span``;
 
 const Product = () => {
