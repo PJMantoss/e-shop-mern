@@ -41,9 +41,10 @@ const Price = styled.span`
 
 const FilterContainer = styled.div``;
 const Filter = styled.div``;
-const FilterTitle = styled.div``;
+const FilterTitle = styled.span``;
 const FilterColor = styled.div``;
-const FilterSize = styled.div``;
+const FilterSize = styled.select``;
+const FilterSizeOption = styled.option``;
 
 const Product = () => {
   return (
@@ -72,11 +73,13 @@ const Product = () => {
 
                 <Filter>
                     <FilterTitle>Size</FilterTitle>
-                    <FilterSize>XS</FilterSize>
-                    <FilterSize>S</FilterSize>
-                    <FilterSize>M</FilterSize>
-                    <FilterSize>L</FilterSize>
-                    <FilterSize>XL</FilterSize>
+                    <FilterSize>
+                        <FilterSizeOption>XS</FilterSizeOption>
+                        <FilterSizeOption>S</FilterSizeOption>
+                        <FilterSizeOption>M</FilterSizeOption>
+                        <FilterSizeOption>L</FilterSizeOption>
+                        <FilterSizeOption>XL</FilterSizeOption>
+                    </FilterSize>
                 </Filter>
             </FilterContainer>
         </Wrapper>
