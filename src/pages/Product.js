@@ -25,7 +25,7 @@ const Product = () => {
                 <Image src="" />
             </ImageContainer>
             <InfoContainer>
-                <Title>Denim Jumsuit</Title>
+                <Title>Denim Jumpsuit</Title>
                 <Desc>
                     Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me.
                     Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me.
