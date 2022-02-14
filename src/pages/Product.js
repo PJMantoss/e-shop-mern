@@ -7,12 +7,14 @@ import Footer from '../components/Footer';
 import styled from 'styled-components';
 
 const Container = styled.div``;
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+    display: flex
+`;
 const ImageContainer = styled.div``;
 const Image = styled.img``;
 const InfoContainer = styled.div``;
 const Title = styled.h1``;
-const Desc= styled.div``;
+const Desc= styled.p``;
 const Price = styled.span``;
 
 const Product = () => {
