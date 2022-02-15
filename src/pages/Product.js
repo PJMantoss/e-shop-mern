@@ -82,7 +82,7 @@ const AddContainer = styled.div`
 `;
 
 const AmountContainer = styled.div`
-    dispplay: flex;
+    display: flex;
     align-items: center;
     font-weight: 700;
 `;
@@ -140,8 +140,8 @@ const Product = () => {
                         <AddIcon />
                         <Amount>1</Amount>
                         <RemoveIcon />
-                        <Button>ADD TO CARD</Button>
                     </AmountContainer>
+                    <Button>ADD TO CARD</Button>
                 </AddContainer>
             </InfoContainer>
         </Wrapper>
