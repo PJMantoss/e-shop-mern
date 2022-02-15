@@ -81,7 +81,11 @@ const AddContainer = styled.div`
     justify-content: space-between;
 `;
 
-const AmountContainer = styled.div``;
+const AmountContainer = styled.div`
+    dispplay: flex;
+    align-items: center;
+    font-weight: 770;
+`;
 
 const Amount = styled.span``;
 
