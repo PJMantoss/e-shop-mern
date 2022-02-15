@@ -125,6 +125,7 @@ const Product = () => {
                 <AddContainer>
                     <AmountContainer>
                         <AddIcon />
+                        <RemoveIcon />
                         <Button></Button>
                     </AmountContainer>
                 </AddContainer>
