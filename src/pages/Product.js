@@ -84,7 +84,7 @@ const AddContainer = styled.div`
 const AmountContainer = styled.div`
     dispplay: flex;
     align-items: center;
-    font-weight: 770;
+    font-weight: 700;
 `;
 
 const Amount = styled.span``;
