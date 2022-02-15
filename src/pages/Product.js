@@ -78,6 +78,7 @@ const AddContainer = styled.div`
     width: 50%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 `;
 
 const AmountContainer = styled.div``;
