@@ -98,7 +98,10 @@ const Amount = styled.span`
     margin: 0 5px;
 `;
 
-const Button = styled.button``;
+const Button = styled.button`
+    padding: 15px;
+    border: 1px solid teal;
+`;
 
 const Product = () => {
   return (
