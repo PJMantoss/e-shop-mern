@@ -78,6 +78,8 @@ const AmountContainer = styled.div``;
 
 const Amount = styled.div``;
 
+const Button = styled.button``;
+
 const Product = () => {
   return (
     <Container>
@@ -114,7 +116,9 @@ const Product = () => {
                     </Filter>
                 </FilterContainer>
                 <AddContainer>
-                    <AmountContainer></AmountContainer>
+                    <AmountContainer>
+                        <Button></Button>
+                    </AmountContainer>
                 </AddContainer>
             </InfoContainer>
         </Wrapper>
