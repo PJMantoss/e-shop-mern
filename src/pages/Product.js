@@ -125,9 +125,9 @@ const Product = () => {
                 <AddContainer>
                     <AmountContainer>
                         <AddIcon />
-                        <Amount></Amount>
+                        <Amount>1</Amount>
                         <RemoveIcon />
-                        <Button></Button>
+                        <Button>ADD TO CARD</Button>
                     </AmountContainer>
                 </AddContainer>
             </InfoContainer>
@@ -138,4 +138,4 @@ const Product = () => {
   )
 }
 
-export default Product
+export default Product;
