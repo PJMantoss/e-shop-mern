@@ -74,7 +74,9 @@ const FilterSize = styled.select`
 
 const FilterSizeOption = styled.option``;
 
-const AddContainer = styled.div``;
+const AddContainer = styled.div`
+    width: 50%;
+`;
 
 const AmountContainer = styled.div``;
 
@@ -119,6 +121,7 @@ const Product = () => {
                 </FilterContainer>
                 <AddContainer>
                     <AmountContainer>
+                        <AddIcon />
                         <Button></Button>
                     </AmountContainer>
                 </AddContainer>
