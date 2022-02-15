@@ -113,6 +113,9 @@ const Product = () => {
                         </FilterSize>
                     </Filter>
                 </FilterContainer>
+                <AddContainer>
+                    <AmountContainer></AmountContainer>
+                </AddContainer>
             </InfoContainer>
         </Wrapper>
         <Newsletter />
