@@ -76,7 +76,7 @@ const AddContainer = styled.div``;
 
 const AmountContainer = styled.div``;
 
-const Amount = styled.div``;
+const Amount = styled.span``;
 
 const Button = styled.button``;
 
