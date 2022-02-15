@@ -72,6 +72,12 @@ const FilterSize = styled.select`
 
 const FilterSizeOption = styled.option``;
 
+const AddContainer = styled.div``;
+
+const AmountContainer = styled.div``;
+
+const Amount = styled.div``;
+
 const Product = () => {
   return (
     <Container>
