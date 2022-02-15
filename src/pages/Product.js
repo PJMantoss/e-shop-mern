@@ -76,6 +76,8 @@ const FilterSizeOption = styled.option``;
 
 const AddContainer = styled.div`
     width: 50%;
+    display: flex;
+    align-items: center;
 `;
 
 const AmountContainer = styled.div``;
