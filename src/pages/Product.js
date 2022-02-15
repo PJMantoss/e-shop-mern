@@ -87,7 +87,10 @@ const AmountContainer = styled.div`
     font-weight: 700;
 `;
 
-const Amount = styled.span``;
+const Amount = styled.span`
+    width: 30px;
+    height: 30px;
+`;
 
 const Button = styled.button``;
 
