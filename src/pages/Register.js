@@ -25,9 +25,16 @@ const Title = styled.h1`
   font-weight: 300;
 `;
 
-const Form = styled.form``;
+const Form = styled.form`
+  display: flex;
+  flex-wrap: wrap;
+`;
 
-const Input = styled.input``;
+const Input = styled.input`
+  flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 0 0;
+`;
 
 const Agreement = styled.span``;
 
