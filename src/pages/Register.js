@@ -30,6 +30,7 @@ const Register = () => {
             By creating an account, I agree to the processing of my personal data
             in accordance with the <b>Privacy Policy</b>.
           </Agreement>
+          <Button>REGISTER</Button>
         </Form>
       </Wrapper>
     </Container>
