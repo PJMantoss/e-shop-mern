@@ -12,7 +12,7 @@ const Register = () => {
   return (
     <Container>
       <Wrapper>
-        <Title></Title>
+        <Title>CREATE ACCOUNTS</Title>
       </Wrapper>
     </Container>
   )
