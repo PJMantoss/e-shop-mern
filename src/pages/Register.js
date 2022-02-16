@@ -4,9 +4,15 @@ import styled from 'styled-components';
 
 const Container = styled.div``;
 
+const Wrapper = styled.div``;
+
+const Container = styled.div``;
+
 const Register = () => {
   return (
-    <Container>Register</Container>
+    <Container>
+      <Wrapper></Wrapper>
+    </Container>
   )
 }
 
