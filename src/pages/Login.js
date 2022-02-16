@@ -28,7 +28,7 @@ const Title = styled.h1`
 
 const Form = styled.form`
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 `;
 
 const Input = styled.input`
