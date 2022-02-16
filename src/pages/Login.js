@@ -57,9 +57,6 @@ const Login = () => {
       <Wrapper>
         <Title>SIGN IN</Title>
         <Form>
-          <Input placeholder="first name" />
-          <Input placeholder="last name" />
-          <Input placeholder="email" />
           <Input placeholder="username" />
           <Input placeholder="password" />
           <Input placeholder="confirm password" />
@@ -67,7 +64,7 @@ const Login = () => {
             By creating an account, I agree to the processing of my personal data
             in accordance with the <b>Privacy Policy</b>.
           </Agreement>
-          <Button>REGISTER</Button>
+          <Button>SIGN IN</Button>
         </Form>
       </Wrapper>
     </Container>
