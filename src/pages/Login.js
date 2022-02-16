@@ -47,7 +47,7 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-const Link = styled.link``;
+const Link = styled.a``;
 
 const Login = () => {
   return (
