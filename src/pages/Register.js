@@ -12,7 +12,9 @@ const Form = styled.form``;
 
 const Input = styled.input``;
 
-const Agreement = styled.div``;
+const Agreement = styled.span``;
+
+const Button = styled.button``;
 
 const Register = () => {
   return (
