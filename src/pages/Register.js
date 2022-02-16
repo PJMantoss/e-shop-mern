@@ -20,7 +20,10 @@ const Wrapper = styled.div`
   background: white;
 `;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+  font-size: 24px;
+  font-weight: 300;
+`;
 
 const Form = styled.form``;
 
