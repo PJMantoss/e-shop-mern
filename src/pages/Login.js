@@ -37,19 +37,17 @@ const Input = styled.input`
   padding: 10px;
 `;
 
-const Agreement = styled.span`
-    margin: 20px 0;
-    font-size: 12px;
-`;
-
 const Button = styled.button`
   width: 40%;
   border: none;
   background: teal;
   padding: 15px 20px;
+  margin: 20px 0;
   color: white;
   cursor: pointer;
 `;
+
+const Link = styled.link``;
 
 const Login = () => {
   return (
@@ -60,6 +58,8 @@ const Login = () => {
           <Input placeholder="username" />
           <Input placeholder="password" />
           <Button>SIGN IN</Button>
+          <Link>FORGOT YOUR PASSWORD?</Link>
+          <Link>CREATE A NEW ACCOUNT</Link>
         </Form>
       </Wrapper>
     </Container>
