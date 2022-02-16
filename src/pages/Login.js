@@ -6,7 +6,9 @@ const Container = styled.div``;
 
 const Login = () => {
   return (
-    <Container>Login</Container>
+    <Container>
+      
+    </Container>
   )
 }
 
