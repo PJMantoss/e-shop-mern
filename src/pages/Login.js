@@ -39,7 +39,7 @@ const Input = styled.input`
 `;
 
 const Button = styled.button`
-  width: 40%;
+  width: 25%;
   border: none;
   background: teal;
   padding: 15px 20px;
@@ -49,7 +49,7 @@ const Button = styled.button`
 `;
 
 const Link = styled.a`
-cursor:
+  font-size: 20px;
 `;
 
 const Login = () => {
