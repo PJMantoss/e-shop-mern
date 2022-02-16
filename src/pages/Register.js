@@ -17,7 +17,14 @@ const Register = () => {
     <Container>
       <Wrapper>
         <Title>CREATE ACCOUNTS</Title>
-        <Form></Form>
+        <Form>
+          <Input placeholder="first name" />
+          <Input placeholder="last name" />
+          <Input placeholder="email" />
+          <Input placeholder="username" />
+          <Input placeholder="password" />
+          <Input placeholder="confirm password" />
+        </Form>
       </Wrapper>
     </Container>
   )
