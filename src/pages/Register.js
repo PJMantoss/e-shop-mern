@@ -42,7 +42,12 @@ const Agreement = styled.span`
     font-size: 12px;
 `;
 
-const Button = styled.button``;
+const Button = styled.button`
+  width: 40%;
+  border: none;
+  background: teal;
+  padding: 15px 20px;
+`;
 
 const Register = () => {
   return (
