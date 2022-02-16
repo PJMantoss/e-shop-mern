@@ -43,12 +43,14 @@ const Button = styled.button`
   border: none;
   background: teal;
   padding: 15px 20px;
-  margin: 20px 0;
+  margin: 10px 0;
   color: white;
   cursor: pointer;
 `;
 
-const Link = styled.a``;
+const Link = styled.a`
+cursor:
+`;
 
 const Login = () => {
   return (
