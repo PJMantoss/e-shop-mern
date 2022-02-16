@@ -49,7 +49,10 @@ const Button = styled.button`
 `;
 
 const Link = styled.a`
-  font-size: 16px;
+  font-size: 12px;
+  margin: 5px 0;
+  text-decoration: underline;
+  cursor: pointer;
 `;
 
 const Login = () => {
