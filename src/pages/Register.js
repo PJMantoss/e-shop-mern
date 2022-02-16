@@ -6,12 +6,14 @@ const Container = styled.div``;
 
 const Wrapper = styled.div``;
 
-const Container = styled.div``;
+const Title = styled.h1``;
 
 const Register = () => {
   return (
     <Container>
-      <Wrapper></Wrapper>
+      <Wrapper>
+        <Title></Title>
+      </Wrapper>
     </Container>
   )
 }
