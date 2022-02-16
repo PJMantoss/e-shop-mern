@@ -34,9 +34,13 @@ const Input = styled.input`
   flex: 1;
   min-width: 40%;
   margin: 20px 10px 0 0;
+  padding: 10px;
 `;
 
-const Agreement = styled.span``;
+const Agreement = styled.span`
+    margin: 20px 0;
+    width: 40%;
+`;
 
 const Button = styled.button``;
 
