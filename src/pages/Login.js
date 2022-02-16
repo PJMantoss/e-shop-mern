@@ -16,7 +16,7 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  width: 40%;
+  width: 25%;
   padding: 20px;
   background: white;
 `;
@@ -39,7 +39,7 @@ const Input = styled.input`
 `;
 
 const Button = styled.button`
-  width: 25%;
+  width: 40%;
   border: none;
   background: teal;
   padding: 15px 20px;
@@ -49,7 +49,7 @@ const Button = styled.button`
 `;
 
 const Link = styled.a`
-  font-size: 20px;
+  font-size: 16px;
 `;
 
 const Login = () => {
