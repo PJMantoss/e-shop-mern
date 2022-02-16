@@ -12,6 +12,8 @@ const Form = styled.form``;
 
 const Input = styled.input``;
 
+const Agreement = styled.div``;
+
 const Register = () => {
   return (
     <Container>
@@ -24,6 +26,7 @@ const Register = () => {
           <Input placeholder="username" />
           <Input placeholder="password" />
           <Input placeholder="confirm password" />
+          <Agreement></Agreement>
         </Form>
       </Wrapper>
     </Container>
