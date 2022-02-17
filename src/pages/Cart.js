@@ -29,7 +29,11 @@ const TopBtn = styled.button`
 
 const TopTexts = styled.div``;
 
-const TopText = styled.span``;
+const TopText = styled.span`
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0 10px;
+`;
 
 const Bottom = styled.div``;
 
