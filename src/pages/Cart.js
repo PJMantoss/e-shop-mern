@@ -26,8 +26,8 @@ const TopBtn = styled.button`
     padding: 10px;
     font-weight: 600;
     border: ${props => props.type === "filled" && "none"};
-    background: ${props => props.type === "filled" && "none"};
-    color: ${props => props.type === "filled" && "none"};
+    background: ${props => props.type === "filled" ? "black" : "transparent"};
+    color: ${props => props.type === "filled" && "white"};
 `;
 
 const TopTexts = styled.div``;
