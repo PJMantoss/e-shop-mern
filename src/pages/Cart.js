@@ -44,9 +44,21 @@ const Bottom = styled.div`
     justify-content: space-between;
 `;
 
-const Info = styled.div``;
+const Info = styled.div`
+    flex: 3;
+`;
 
-const Summary = styled.div``;
+const Summary = styled.div`
+    flex: 1;
+`;
+
+const Product = styled.div``;
+
+const ProductDetail = styled.div``;
+
+const Image = styled.img``;
+
+const PriceDetail = styled.div``;
 
 const Cart = () => {
   return (
