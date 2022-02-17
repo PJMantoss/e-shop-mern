@@ -22,6 +22,11 @@ const Top = styled.div`
     justify-content: space-between;
 `;
 
+const TopBtn = styled.button`
+    padding: 10px;
+    font-weight: 600;
+`;
+
 const Bottom = styled.div``;
 
 const Cart = () => {
