@@ -36,7 +36,10 @@ const Cart = () => {
         <Navbar />
         <Wrapper>
             <Title>Your Bag</Title>
-            <Top></Top>
+            <Top>
+                <TopBtn>Continue Shopping</TopBtn>
+                <TopBtn>Checkout Now</TopBtn>
+            </Top>
             <Bottom></Bottom>
         </Wrapper>
         <Footer />
