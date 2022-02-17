@@ -7,9 +7,13 @@ import styled from 'styled-components';
 
 const Container = styled.div``;
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+    padding: 20px;
+`;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+    font-weight: 300;
+`;
 
 const Top = styled.div``;
 
