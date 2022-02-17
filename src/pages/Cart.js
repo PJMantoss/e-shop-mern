@@ -39,7 +39,13 @@ const TopText = styled.span`
     margin: 0 10px;
 `;
 
-const Bottom = styled.div``;
+const Bottom = styled.div`
+    display: flex;
+`;
+
+const Info = styled.div``;
+
+const Summary = styled.div``;
 
 const Cart = () => {
   return (
