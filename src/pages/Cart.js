@@ -76,7 +76,12 @@ const Cart = () => {
                 <TopBtn type="filled">Checkout Now</TopBtn>
             </Top>
             <Bottom>
-                <Info>Info</Info>
+                <Info>
+                    <Product>
+                        <ProductDetail></ProductDetail>
+                        <PriceDetail></PriceDetail>
+                    </Product>
+                </Info>
                 <Summary>Summary</Summary>
             </Bottom>
         </Wrapper>
