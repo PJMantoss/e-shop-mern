@@ -27,11 +27,11 @@ const TopBtn = styled.button`
     font-weight: 600;
 `;
 
-const TopText = styled.div``;
-
 const TopTexts = styled.div``;
 
-const Bottom = styled.span``;
+const TopText = styled.span``;
+
+const Bottom = styled.div``;
 
 const Cart = () => {
   return (
