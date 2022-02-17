@@ -31,7 +31,7 @@ const TopText = styled.div``;
 
 const TopTexts = styled.div``;
 
-const Bottom = styled.div``;
+const Bottom = styled.span``;
 
 const Cart = () => {
   return (
