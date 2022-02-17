@@ -20,7 +20,11 @@ const Cart = () => {
     <Container>
         <Announcement />
         <Navbar />
-        Cart
+        <Wrapper>
+            <Title>Your Bag</Title>
+            <Top></Top>
+            <Bottom></Bottom>
+        </Wrapper>
         <Footer />
     </Container>
   )
