@@ -16,7 +16,11 @@ const Title = styled.h1`
     text-align: center;
 `;
 
-const Top = styled.div``;
+const Top = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+`;
 
 const Bottom = styled.div``;
 
