@@ -60,6 +60,8 @@ const Image = styled.img``;
 
 const PriceDetail = styled.div``;
 
+const ProductDetail = styled.div``;
+
 const Cart = () => {
   return (
     <Container>
