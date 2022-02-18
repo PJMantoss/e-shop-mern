@@ -68,6 +68,10 @@ const ProductSize = styled.div``;
 
 const ProductId = styled.div``;
 
+const ProductColor = styled.div``;
+
+const Details = styled.div``;
+
 const Cart = () => {
   return (
     <Container>
