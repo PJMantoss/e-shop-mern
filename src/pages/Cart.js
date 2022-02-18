@@ -62,6 +62,8 @@ const PriceDetail = styled.div``;
 
 const ProductDetail = styled.div``;
 
+const Detail = styled.div``;
+
 const Cart = () => {
   return (
     <Container>
