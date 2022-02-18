@@ -52,8 +52,6 @@ const Summary = styled.div`
     flex: 1;
 `;
 
-const Product = styled.div``;
-
 const ProductDetail = styled.div``;
 
 const Image = styled.img``;
