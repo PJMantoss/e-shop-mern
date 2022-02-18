@@ -83,7 +83,7 @@ const Cart = () => {
                             <Details>
                                 <ProductName> <b></b> </ProductName>
                                 <ProductId> <b></b> </ProductId>
-                                <ProductColor></ProductColor>
+                                <ProductColor />
                                 <ProductSize> <b></b> </ProductSize>
                             </Details>
                         </ProductDetail>
