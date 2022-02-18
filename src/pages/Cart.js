@@ -62,6 +62,8 @@ const PriceDetail = styled.div``;
 
 const Detail = styled.div``;
 
+const Product = styled.div``;
+
 const ProductName = styled.span``;
 
 const ProductSize = styled.div``;
