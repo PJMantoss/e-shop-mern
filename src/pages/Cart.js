@@ -64,6 +64,12 @@ const ProductDetail = styled.div``;
 
 const Detail = styled.div``;
 
+const ProductName = styled.span``;
+
+const ProductSize = styled.div``;
+
+const ProductId = styled.div``;
+
 const Cart = () => {
   return (
     <Container>
