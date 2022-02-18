@@ -60,7 +60,10 @@ const PriceDetail = styled.div``;
 
 const Detail = styled.div``;
 
-const Product = styled.div``;
+const Product = styled.div`
+    display: flex;
+    justify-content: space-between;
+`;
 
 const ProductName = styled.span``;
 
