@@ -84,7 +84,7 @@ const Cart = () => {
                                 <ProductName> <b>Product:</b> JOEL THUNDER SHOES </ProductName>
                                 <ProductId> <b>ID:</b> 8095544003 </ProductId>
                                 <ProductColor />
-                                <ProductSize> <b></b> </ProductSize>
+                                <ProductSize> <b>Size:</b> 37.5 </ProductSize>
                             </Details>
                         </ProductDetail>
                         <PriceDetail></PriceDetail>
