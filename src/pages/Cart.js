@@ -68,7 +68,7 @@ const ProductName = styled.span``;
 
 const ProductSize = styled.div``;
 
-const ProductId = styled.div``;
+const ProductId = styled.span``;
 
 const ProductColor = styled.div``;
 
