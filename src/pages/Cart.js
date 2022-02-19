@@ -58,8 +58,6 @@ const Image = styled.img``;
 
 const PriceDetail = styled.div``;
 
-const Detail = styled.div``;
-
 const Product = styled.div`
     display: flex;
     justify-content: space-between;
