@@ -163,7 +163,7 @@ const Cart = () => {
                             <Details>
                                 <ProductName> <b>Product:</b> TOSS T-SHIRT </ProductName>
                                 <ProductId> <b>ID:</b> 8095544003 </ProductId>
-                                <ProductColor color="black" />
+                                <ProductColor color="gray" />
                                 <ProductSize> <b>Size:</b> XL </ProductSize>
                             </Details>
                         </ProductDetail>
