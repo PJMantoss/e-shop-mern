@@ -71,7 +71,10 @@ const ProductSize = styled.span``;
 
 const ProductId = styled.span``;
 
-const ProductColor = styled.div``;
+const ProductColor = styled.div`
+    width: 20px;
+    height: 20px;
+`;
 
 const Details = styled.div`
     display: flex;
