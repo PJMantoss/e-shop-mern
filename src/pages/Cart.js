@@ -107,7 +107,7 @@ const Cart = () => {
                             <Details>
                                 <ProductName> <b>Product:</b> JOEL THUNDER SHOES </ProductName>
                                 <ProductId> <b>ID:</b> 8095544003 </ProductId>
-                                <ProductColor />
+                                <ProductColor color="black" />
                                 <ProductSize> <b>Size:</b> 37.5 </ProductSize>
                             </Details>
                         </ProductDetail>
