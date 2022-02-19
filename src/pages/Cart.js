@@ -126,7 +126,9 @@ const Cart = () => {
                             </Details>
                         </ProductDetail>
                         <PriceDetail>
-                            <Amount></Amount>
+                            <ProductAmountContainer>
+                                <Amount></Amount>
+                            </ProductAmountContainer>
                         </PriceDetail>
                     </Product>
                 </Info>
