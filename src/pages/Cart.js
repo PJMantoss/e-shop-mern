@@ -64,7 +64,10 @@ const Details = styled.div`
     padding: 20px;
 `;
 
-const ProductDetail = styled.div``;
+const ProductDetail = styled.div`
+    display: flex;
+    flex: 2;
+`;
 
 const Image = styled.img`
     width: 200px;
