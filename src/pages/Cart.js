@@ -83,7 +83,10 @@ const PriceDetail = styled.div`
     justify-content: center;
 `;
 
-const ProductAmountContainer = styled.div``;
+const ProductAmountContainer = styled.div`
+    display: flex;
+    align-items: center;
+`;
 
 const Amount = styled.div``;
 
