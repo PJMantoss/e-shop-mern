@@ -93,7 +93,10 @@ const Amount = styled.div`
     margin: 5px;
 `;
 
-const ProductPrice = styled.div``;
+const ProductPrice = styled.div`
+    font-size: 30px;
+    font-weight: 200;
+`;
 
 const ProductName = styled.span``;
 
