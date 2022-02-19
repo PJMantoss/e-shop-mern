@@ -52,6 +52,13 @@ const Summary = styled.div`
     flex: 1;
 `;
 
+const Details = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+`;
+
 const ProductDetail = styled.div``;
 
 const Image = styled.img``;
@@ -76,13 +83,6 @@ const ProductColor = styled.div`
     height: 20px;
     border-radius: 50%;
     background-color: ${props => props.color};
-`;
-
-const Details = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
 `;
 
 const Cart = () => {
