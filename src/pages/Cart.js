@@ -99,7 +99,10 @@ const ProductPrice = styled.div`
     font-weight: 200;
 `;
 
-const Hr = styled.hr``;
+const Hr = styled.hr`
+    background: #eee;
+    border: none;
+`;
 
 const ProductName = styled.span``;
 
