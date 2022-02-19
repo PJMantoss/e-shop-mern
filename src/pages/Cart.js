@@ -56,7 +56,9 @@ const ProductDetail = styled.div``;
 
 const Image = styled.img``;
 
-const PriceDetail = styled.div``;
+const PriceDetail = styled.div`
+    flex: 1;
+`;
 
 const Product = styled.div`
     display: flex;
