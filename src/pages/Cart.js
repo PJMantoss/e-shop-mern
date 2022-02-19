@@ -52,11 +52,13 @@ const Summary = styled.div`
     flex: 1;
 `;
 
-const ProductDetail = styled.div`
-    flex: 1;
-`;
+const ProductDetail = styled.div``;
 
 const Image = styled.img``;
+
+const PriceDetail = styled.div`
+    
+`;
 
 const Product = styled.div`
     display: flex;
