@@ -75,6 +75,8 @@ const Image = styled.img`
 
 const PriceDetail = styled.div`
     flex: 1;
+    display: flex;
+    align-items: center;
 `;
 
 const ProductName = styled.span``;
