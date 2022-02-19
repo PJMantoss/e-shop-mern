@@ -71,7 +71,12 @@ const ProductId = styled.span``;
 
 const ProductColor = styled.div``;
 
-const Details = styled.div``;
+const Details = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+`;
 
 const Cart = () => {
   return (
