@@ -74,6 +74,7 @@ const ProductId = styled.span``;
 const ProductColor = styled.div`
     width: 20px;
     height: 20px;
+    border-radius: 50%;
 `;
 
 const Details = styled.div`
