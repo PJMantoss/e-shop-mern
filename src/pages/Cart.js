@@ -141,10 +141,10 @@ const Cart = () => {
                         <PriceDetail>
                             <ProductAmountContainer>
                                 <AddIcon />
-                                <Amount></Amount>
+                                <Amount>2</Amount>
                                 <RemoveIcon />
                             </ProductAmountContainer>
-                            <ProductPrice></ProductPrice>
+                            <ProductPrice>$20</ProductPrice>
                         </PriceDetail>
                     </Product>
                 </Info>
