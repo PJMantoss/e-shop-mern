@@ -52,6 +52,11 @@ const Summary = styled.div`
     flex: 1;
 `;
 
+const Product = styled.div`
+    display: flex;
+    justify-content: space-between;
+`;
+
 const Details = styled.div`
     display: flex;
     flex-direction: column;
@@ -61,15 +66,12 @@ const Details = styled.div`
 
 const ProductDetail = styled.div``;
 
-const Image = styled.img``;
+const Image = styled.img`
+    width: 200px;
+`;
 
 const PriceDetail = styled.div`
     flex: 1;
-`;
-
-const Product = styled.div`
-    display: flex;
-    justify-content: space-between;
 `;
 
 const ProductName = styled.span``;
