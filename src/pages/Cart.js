@@ -88,7 +88,10 @@ const ProductAmountContainer = styled.div`
     align-items: center;
 `;
 
-const Amount = styled.div``;
+const Amount = styled.div`
+    font-size: 24px;
+    margin: 5px;
+`;
 
 const ProductName = styled.span``;
 
