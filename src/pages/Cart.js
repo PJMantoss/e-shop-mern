@@ -93,6 +93,8 @@ const Amount = styled.div`
     margin: 5px;
 `;
 
+const ProductPrice = styled.div``;
+
 const ProductName = styled.span``;
 
 const ProductSize = styled.span``;
@@ -139,6 +141,7 @@ const Cart = () => {
                                 <Amount></Amount>
                                 <RemoveIcon />
                             </ProductAmountContainer>
+                            <ProductPrice></ProductPrice>
                         </PriceDetail>
                     </Product>
                 </Info>
