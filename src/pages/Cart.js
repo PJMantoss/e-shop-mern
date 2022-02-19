@@ -102,6 +102,7 @@ const ProductPrice = styled.div`
 const Hr = styled.hr`
     background: #eee;
     border: none;
+    height: 1px;
 `;
 
 const ProductName = styled.span``;
