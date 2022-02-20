@@ -179,7 +179,10 @@ const Cart = () => {
                 </Info>
                 <Summary>
                     <SummaryTitle></SummaryTitle>
-                    <SummaryItem></SummaryItem>
+                    <SummaryItem>
+                        <SummaryItemText></SummaryItemText>
+                        <SummaryItemPrice></SummaryItemPrice>
+                    </SummaryItem>
                 </Summary>
             </Bottom>
         </Wrapper>
