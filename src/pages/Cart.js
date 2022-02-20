@@ -183,6 +183,14 @@ const Cart = () => {
                         <SummaryItemText></SummaryItemText>
                         <SummaryItemPrice></SummaryItemPrice>
                     </SummaryItem>
+                    <SummaryItem>
+                        <SummaryItemText></SummaryItemText>
+                        <SummaryItemPrice></SummaryItemPrice>
+                    </SummaryItem>
+                    <SummaryItem>
+                        <SummaryItemText></SummaryItemText>
+                        <SummaryItemPrice></SummaryItemPrice>
+                    </SummaryItem>
                 </Summary>
             </Bottom>
         </Wrapper>
