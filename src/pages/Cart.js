@@ -66,7 +66,7 @@ const SummaryItem = styled.div`
     display: flex;
     justify-content: space-between;
     margin: 30px 0;
-    font-weight: ${props => props.type === "total" && "darker"};
+    font-weight: ${props => props.type === "total" && "500"};
     font-size: ${props => props.type === "total" && "24px"};
 `;
 
