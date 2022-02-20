@@ -177,7 +177,10 @@ const Cart = () => {
                         </PriceDetail>
                     </Product>
                 </Info>
-                <Summary>Summary</Summary>
+                <Summary>
+                    <SummaryTitle></SummaryTitle>
+                    <SummaryItem></SummaryItem>
+                </Summary>
             </Bottom>
         </Wrapper>
         <Footer />
