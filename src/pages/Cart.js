@@ -62,6 +62,8 @@ const SummaryItemText = styled.div``;
 
 const SummaryItemPrice = styled.div``;
 
+const Button = styled.div``;
+
 const Product = styled.div`
     display: flex;
     justify-content: space-between;
