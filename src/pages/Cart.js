@@ -205,7 +205,7 @@ const Cart = () => {
                         <SummaryItemText type="totla">Total</SummaryItemText>
                         <SummaryItemPrice>$80</SummaryItemPrice>
                     </SummaryItem>
-                    <Button>CHECKOUT NOW</Button>
+                    <SummaryButton>CHECKOUT NOW</SummaryButton>
                 </Summary>
             </Bottom>
         </Wrapper>
