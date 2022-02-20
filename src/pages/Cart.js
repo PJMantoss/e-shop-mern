@@ -178,9 +178,9 @@ const Cart = () => {
                     </Product>
                 </Info>
                 <Summary>
-                    <SummaryTitle></SummaryTitle>
+                    <SummaryTitle>ORDER SUMMARY</SummaryTitle>
                     <SummaryItem>
-                        <SummaryItemText></SummaryItemText>
+                        <SummaryItemText>Subtotal</SummaryItemText>
                         <SummaryItemPrice></SummaryItemPrice>
                     </SummaryItem>
                     <SummaryItem>
