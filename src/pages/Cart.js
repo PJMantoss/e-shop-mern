@@ -58,9 +58,15 @@ const Summary = styled.div`
     height: 50vh;
 `;
 
-const SummaryTitle = styled.h2``;
+const SummaryTitle = styled.h2`
+    font-weight: 200;
+`;
 
-const SummaryItem = styled.div``;
+const SummaryItem = styled.div`
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+`;
 
 const SummaryItemText = styled.span``;
 
