@@ -79,6 +79,7 @@ const SummaryButton = styled.button`
     padding: 10px;
     background-color: black;
     color: white;
+    font-weight: 600;
 `;
 
 const Product = styled.div`
