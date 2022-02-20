@@ -74,7 +74,11 @@ const SummaryItemText = styled.span``;
 
 const SummaryItemPrice = styled.span``;
 
-const SummaryButton = styled.button``;
+const SummaryButton = styled.button`
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+`;
 
 const Product = styled.div`
     display: flex;
