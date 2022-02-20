@@ -54,15 +54,15 @@ const Summary = styled.div`
     flex: 1;
 `;
 
-const SummaryTitle = styled.h3``;
+const SummaryTitle = styled.h2``;
 
 const SummaryItem = styled.div``;
 
-const SummaryItemText = styled.div``;
+const SummaryItemText = styled.span``;
 
-const SummaryItemPrice = styled.div``;
+const SummaryItemPrice = styled.span``;
 
-const Button = styled.div``;
+const SummaryButton = styled.button``;
 
 const Product = styled.div`
     display: flex;
