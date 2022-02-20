@@ -54,6 +54,14 @@ const Summary = styled.div`
     flex: 1;
 `;
 
+const SummaryTitle = styled.h3``;
+
+const SummaryItem = styled.div``;
+
+const SummaryItemText = styled.div``;
+
+const SummaryItemPrice = styled.div``;
+
 const Product = styled.div`
     display: flex;
     justify-content: space-between;
