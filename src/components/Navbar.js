@@ -6,7 +6,9 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const Container = styled.div`
     height: 60px;
-    @media only screen and (max-width: 380px){};
+    @media only screen and (max-width: 380px){
+        display: ;
+    };
 `;
 
 const Wrapper = styled.div`
