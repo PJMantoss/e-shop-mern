@@ -20,6 +20,7 @@ const Wrapper = styled.div`
 const Language = styled.div`
     font-size: 14px;
     cursor: pointer;
+    ${mobile({ display: "none" })};
 `;
 
 const Left = styled.div`
