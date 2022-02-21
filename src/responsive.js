@@ -1,3 +1,3 @@
 import { css } from 'styled-components';
 
-export const mobile = () => {};
+export const mobile = props => {};
