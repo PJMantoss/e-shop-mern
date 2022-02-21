@@ -14,6 +14,7 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+    ${mobile({ padding: "10px 0" })};
 `;
 
 const Language = styled.div`
