@@ -35,7 +35,9 @@ const TopBtn = styled.button`
     color: ${props => props.type === "filled" && "white"};
 `;
 
-const TopTexts = styled.div``;
+const TopTexts = styled.div`
+    ${mobile({ display: "none" })};
+`;
 
 const TopText = styled.span`
     text-decoration: underline;
