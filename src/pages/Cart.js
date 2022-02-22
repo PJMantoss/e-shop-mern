@@ -132,6 +132,7 @@ const Amount = styled.div`
 const ProductPrice = styled.div`
     font-size: 30px;
     font-weight: 200;
+    ${mobile({ marginBottom: "20px" })};
 `;
 
 const Hr = styled.hr`
