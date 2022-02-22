@@ -1,4 +1,5 @@
 import React from 'react';
+import { mobile } from '../responsive';
 
 import styled from 'styled-components';
 
@@ -7,13 +8,13 @@ const Container = styled.div`
     margin: 3px;
     height: 70vh;
     position: relative;
-    ${mobile({ height: "20vh" })};
 `;
 
 const Image = styled.img`
     width: 100%;
     height: 100%;
     object-fit: cover;
+    ${mobile({ height: "20vh" })};
 `;
 
 const Info = styled.div`
