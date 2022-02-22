@@ -32,6 +32,7 @@ const FilterText = styled.span`
     font-size: 20px;
     font-weight: 600;
     margin-right: 20px;
+    ${mobile({ marginRight: "0" })};
 `;
 
 const Select = styled.select`
