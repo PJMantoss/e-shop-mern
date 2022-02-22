@@ -7,7 +7,7 @@ const Container = styled.div`
     margin: 3px;
     height: 70vh;
     position: relative;
-    ${mobile({ height: "30vh" })};
+    ${mobile({ height: "20vh" })};
 `;
 
 const Image = styled.img`
