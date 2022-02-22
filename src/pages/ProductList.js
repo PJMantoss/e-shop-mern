@@ -4,6 +4,7 @@ import Announcement from '../components/Announcement';
 import Products from '../components/Products';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
+import { mobile } from '../responsive';
 
 import styled from 'styled-components';
 
@@ -20,6 +21,10 @@ const FilterContainer = styled.div`
 
 const Filter = styled.div`
     margin: 20px;
+    ${mobile({
+        margin: "0 20px",
+        display: "flex"
+    })};
 `;
 
 const FilterText = styled.span`
