@@ -22,8 +22,9 @@ const FilterContainer = styled.div`
 const Filter = styled.div`
     margin: 20px;
     ${mobile({
-        margin: "0 20px",
-        display: "flex"
+        margin: "0 15px",
+        display: "flex",
+        flexDirection: "column"
     })};
 `;
 
