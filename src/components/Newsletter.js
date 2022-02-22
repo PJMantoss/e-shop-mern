@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SendIcon from '@mui/icons-material/Send';
+import { mobile } from '../responsive';
 
 import styled from 'styled-components';
 
