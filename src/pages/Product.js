@@ -10,9 +10,11 @@ import { mobile } from '../responsive';
 import styled from 'styled-components';
 
 const Container = styled.div``;
+
 const Wrapper = styled.div`
     display: flex;
     padding: 50px;
+    ${mobile({ padding: "10px", flexDirection: "column" })};
 `;
 const ImageContainer = styled.div`
     flex: 1;
