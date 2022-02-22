@@ -51,6 +51,7 @@ const FilterContainer = styled.div`
     justify-content: space-between;
     width: 50%;
     margin: 30px 0;
+    ${mobile({ width: "100%" })};
 `;
 
 const Filter = styled.div`
