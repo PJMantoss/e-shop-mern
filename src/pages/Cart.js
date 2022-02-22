@@ -126,7 +126,7 @@ const ProductAmountContainer = styled.div`
 const Amount = styled.div`
     font-size: 24px;
     margin: 5px;
-    ${mobile({ margin: "0 15px" })};
+    ${mobile({ margin: "5px 15px" })};
 `;
 
 const ProductPrice = styled.div`
