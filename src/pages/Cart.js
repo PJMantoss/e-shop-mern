@@ -90,6 +90,7 @@ const SummaryButton = styled.button`
 const Product = styled.div`
     display: flex;
     justify-content: space-between;
+    ${mobile({ flexDirection: "column" })};
 `;
 
 const Details = styled.div`
@@ -125,6 +126,7 @@ const ProductAmountContainer = styled.div`
 const Amount = styled.div`
     font-size: 24px;
     margin: 5px;
+    ${mobile({ margin: "0 15px" })};
 `;
 
 const ProductPrice = styled.div`
