@@ -11,7 +11,7 @@ mongoose
     .then(() => console.log("DB Connection Successfull!"))
     .catch(err => console.log(err));
 
-app.use()
+app.use("/api/user", userRoute)
 
 app.listen(process.env.PORT || 5000, () => {
     console.log("Backend Server is running!");
