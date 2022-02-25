@@ -4,6 +4,8 @@ router.get("/usertest", (req, res) => {
     res.send("user test is successful");
 });
 
-router.get("/userposttest", (req, res) => {})
+router.get("/userposttest", (req, res) => {
+    
+});
 
 module.exports = router;
