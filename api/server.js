@@ -11,6 +11,7 @@ mongoose
     .then(() => console.log("DB Connection Successfull!"))
     .catch(err => console.log(err));
 
+app.use(express.json());
 app.use("/api/users", userRoute)
 
 app.listen(process.env.PORT || 5000, () => {
