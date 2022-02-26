@@ -2,13 +2,9 @@ const mongoose = require("mongoose");
 const { boolean } = require("webidl-conversions");
 
 const ProductSchema = new mongoose.Schema({
-    username: {type: String, required: true, unique: true},
-    email: {type: String, required: true, unique: true},
-    password: {ype: String, required: true},
-    isAdmin: {
-        type: boolean,
-        default: false
-    },
+    title: {type: String, required: true, unique: true},
+    desc: {type: String, required: true, unique: true},
+    img: {ype: String, required: true},
 },
 {timestamps: true}
 );
