@@ -8,4 +8,6 @@ const UserSchema = new mongoose.Schema({
         type: boolean,
         default: false
     },
-});
+},
+{timestamps: true}
+);
