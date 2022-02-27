@@ -9,6 +9,13 @@ router.post("/register", (req, res) => {
         email: req.body.email,
         password: req.body.password,
     });
+
+    try{
+        const savedUser = newUser.save();
+        cosole.log(savedUser);
+    }catch(err){
+        console.log(err);
+    }
 });
 
 module.exports = router;
