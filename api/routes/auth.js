@@ -4,7 +4,9 @@ const User = require("../models/User");
 
 //Register
 router.post("/register", (req, res) => {
-    const newUser = new User;
+    const newUser = new User({
+        username: req.body.username,
+    });
 });
 
 module.exports = router;
