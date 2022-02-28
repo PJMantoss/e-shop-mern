@@ -4,6 +4,8 @@ const User = require("../models/User");
 
 const CryptoJS = require("crypto-js");
 
+const jwt = require("jasonwebtoken");
+
 //Register
 router.post("/register", async (req, res) => {
     const newUser = new User({
@@ -22,11 +24,13 @@ router.post("/register", async (req, res) => {
 
 //Login
 router.post("/login", async (req, res) => {
-    
+    let user;
     try{
-        const user = await User.findOne({ username: req.body.user_name });
-
-        !user && res.status(401).json("Wrong Credentials!");
+        if(user){
+            user = await User.findOne({ userName: req.body.user_name });
+        } else {
+            res.status(401).json("Wrong Credentials!");
+        }
 
         const hashedPassword = CryptoJS.AES.decrypt(user.password, process.env.PASSWORD_SECRET);
 
