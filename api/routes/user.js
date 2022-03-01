@@ -20,8 +20,9 @@ router.put("/:id", verifyTokenAndAuthorization, async (req, res) => {
             {
                 new: true
             },
-            res.status(200).json(updatedUser)
-            )
+            );
+
+            res.status(200).json(updatedUser);
     }catch(err){
         res.status(500).json(err)
     }
