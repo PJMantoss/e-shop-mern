@@ -23,4 +23,4 @@ const verifyTokenAndAuthorization = (req, res, next) => {
     })
 };
 
-module.exports = {verifyToken};
+module.exports = { verifyToken, verifyTokenAndAuthorization };
