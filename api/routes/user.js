@@ -9,6 +9,8 @@ router.put("/:id", verifyTokenAndAuthorization, (req, res) => {
             process.env.PASSWORD_SECRET
             ).toString();
     }
+
+    try{}catch(err){}
 });
 
 module.exports = router;
