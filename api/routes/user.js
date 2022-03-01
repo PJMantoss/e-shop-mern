@@ -4,7 +4,10 @@ const router = require("express").Router();
 
 router.put("/:id", verifyTokenAndAuthorization, (req, res) => {
     if(req.body.password){
-        req.body.password: CryptoJS.AES.encrypt(req.body.password, process.env.PASSWORD_SECRET).toString(),
+        req.body.password= CryptoJS.AES.encrypt(
+            req.body.password, 
+            process.env.PASSWORD_SECRET
+            ).toString(),
     }
 });
 
