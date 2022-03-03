@@ -63,7 +63,9 @@ router.get("/stats", verifyTokenAndAdmin, async (req, res) => {
     const lastYear = new Date(date.setFullYear(date.getFullYear() - 1));
 
     try{
-        const data = await User.aggregate([])
+        const data = await User.aggregate([
+            { $match: {  } }
+        ])
     }catch(err){
         res.status(500).json(err);
     };
