@@ -58,7 +58,7 @@ router.get("/", verifyTokenAndAdmin, async (req, res) => {
 });
 
 //GET USERS STATS
-router.get();
+router.get("/stats", verifyTokenAndAdmin, async (req, res) =>{});
 
 module.exports = router;
 
