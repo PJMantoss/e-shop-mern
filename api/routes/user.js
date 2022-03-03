@@ -64,7 +64,9 @@ router.get("/stats", verifyTokenAndAdmin, async (req, res) => {
 
     try{
         const data = await User.aggregate([])
-    }catch(){};
+    }catch(err){
+        res.status(500).json(err);
+    };
 });
 
 module.exports = router;
