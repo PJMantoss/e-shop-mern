@@ -60,7 +60,7 @@ router.get("/", verifyTokenAndAdmin, async (req, res) => {
 //GET USERS STATS
 router.get("/stats", verifyTokenAndAdmin, async (req, res) => {
     const date = new Date();
-    const lastYear = date.setFullYear(date.getFullYear() - 1);
+    const lastYear = new Date(date.setFullYear(date.getFullYear() - 1));
 });
 
 module.exports = router;
