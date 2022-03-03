@@ -70,6 +70,9 @@ router.get("/stats", verifyTokenAndAdmin, async (req, res) => {
                     month: { $month: "createdAt" }
                 }
             },
+            {
+                $group: {}
+            }
         ]);
     }catch(err){
         res.status(500).json(err);
