@@ -34,7 +34,7 @@ router.put("/:id", verifyTokenAndAdmin, async (req, res) => {
             },
             );
 
-            res.status(200).json(updatedUser);
+            res.status(200).json(updatedProduct);
     }catch(err){
         res.status(500).json(err)
     }
