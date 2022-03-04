@@ -47,6 +47,8 @@ router.post("/login", async (req, res) => {
         const { password, ...others } = user._doc;
 
         res.status(200).json({...others, accessToken});
+
+        !user && res.status(401).json("Wrong Credentials!");
     }catch(err){
         res.status(500).json(err);
     }
