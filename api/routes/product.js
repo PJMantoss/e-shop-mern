@@ -8,7 +8,9 @@ const {
 const router = require("express").Router();
 
 //CREATE
-router.post("/", async (req, res) => {})
+router.post("/", async (req, res) => {
+    const newProduct = new Product(req.body);
+})
 
 //UPDATE
 // router.put("/:id", verifyTokenAndAuthorization, async (req, res) => {
