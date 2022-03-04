@@ -10,6 +10,7 @@ const router = require("express").Router();
 //CREATE
 router.post("/", async (req, res) => {
     const newProduct = new Product(req.body);
+    try{}catch(err){}
 })
 
 //UPDATE
