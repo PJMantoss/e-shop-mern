@@ -77,6 +77,8 @@ router.get("/", async (req, res) => {
                     $in: [queryCategory]
                 },
             });
+        } else {
+            products = await Product.find();
         }
 
         res.status(200).json(users)
