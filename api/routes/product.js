@@ -66,10 +66,11 @@ router.get("/", async (req, res) => {
     const queryNew = req.query.new;
     const queryCategory = req.query.category;
 
-    try{
-        const users = query 
-            ? await User.find().sort({ _id: -1 }).limit(1) 
-            : await User.find();
+    let products;
+
+    if(queryNew){
+        products = await Product.find().sort({ createdAt: -1 }).limit(5);
+    }
 
         res.status(200).json(users)
     }catch(err){
