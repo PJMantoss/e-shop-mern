@@ -64,6 +64,8 @@ router.get("/find/:id", async (req, res) => {
 //GET ALL PRODUCTS
 router.get("/", async (req, res) => {
     const queryNew = req.query.new;
+    const queryCategory = req.query.category;
+
     try{
         const users = query 
             ? await User.find().sort({ _id: -1 }).limit(1) 
