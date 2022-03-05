@@ -62,7 +62,7 @@ router.get("/find/:id", async (req, res) => {
   });
 
 //GET ALL PRODUCTS
-router.get("/", verifyTokenAndAdmin, async (req, res) => {
+router.get("/", async (req, res) => {
     const query = req.query.new
     try{
         const users = query 
