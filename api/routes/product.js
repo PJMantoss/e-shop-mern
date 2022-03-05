@@ -40,7 +40,7 @@ router.put("/:id", verifyTokenAndAdmin, async (req, res) => {
     }
 });
 
-// //DELETE
+// DELETE
 router.delete("/:id", verifyTokenAndAdmin, async (req, res) => {
     try{
         await Product.findByIdAndDelete(req.params.id)
