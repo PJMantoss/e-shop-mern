@@ -62,12 +62,12 @@ router.get("/find/:id", verifyTokenAndAuthorization, async (req, res) => {
   });
 
 //GET ALL PRODUCTS
-router.get("/", async (req, res) => {
+router.get("/", verifyTokenAndAdmin, async (req, res) => {
 
     try{
         const carts = await Cart.find();
-        
-        res.status(200).json(products)
+
+        res.status(200).json(carts)
     }catch(err){
         res.status(500).json(err);
     }
