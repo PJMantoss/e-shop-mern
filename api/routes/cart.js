@@ -61,7 +61,7 @@ router.get("/find/:id", verifyTokenAndAuthorization, async (req, res) => {
     }
   });
 
-//GET ALL PRODUCTS
+//GET ALL
 router.get("/", verifyTokenAndAdmin, async (req, res) => {
 
     try{
