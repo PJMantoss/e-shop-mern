@@ -24,7 +24,7 @@ router.post("/", verifyToken, async (req, res) => {
 router.put("/:id", verifyTokenAndAuthorization, async (req, res) => {
 
     try{
-        const updatedProduct = await User.findByIdAndUpdate(
+        const updatedCart = await User.findByIdAndUpdate(
             req.params.id, 
             {
                 $set: req.body
@@ -34,7 +34,7 @@ router.put("/:id", verifyTokenAndAuthorization, async (req, res) => {
             },
             );
 
-            res.status(200).json(updatedProduct);
+            res.status(200).json(updatedCart);
     }catch(err){
         res.status(500).json(err)
     }
@@ -43,7 +43,7 @@ router.put("/:id", verifyTokenAndAuthorization, async (req, res) => {
 // // DELETE
 // router.delete("/:id", verifyTokenAndAdmin, async (req, res) => {
 //     try{
-//         await Product.findByIdAndDelete(req.params.id)
+//         await Cart.findByIdAndDelete(req.params.id)
 //         res.status(200).json("Product has been deleted...")
 //     }catch(err){
 //         res.status(500).json(err);
