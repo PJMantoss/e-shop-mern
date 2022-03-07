@@ -24,7 +24,7 @@ router.post("/", verifyToken, async (req, res) => {
 router.put("/:id", verifyTokenAndAdmin, async (req, res) => {
 
     try{
-        const updatedCart = await User.findByIdAndUpdate(
+        const updatedOrder = await User.findByIdAndUpdate(
             req.params.id, 
             {
                 $set: req.body
@@ -34,7 +34,7 @@ router.put("/:id", verifyTokenAndAdmin, async (req, res) => {
             },
             );
 
-            res.status(200).json(updatedCart);
+            res.status(200).json(updatedOrder);
     }catch(err){
         res.status(500).json(err)
     }
