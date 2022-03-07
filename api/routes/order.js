@@ -85,7 +85,7 @@ router.get("/income", verifyTokenAndAdmin, async (req, res) => {
             {
                 $project: {
                     month: {$month: "$createdAt"},
-                    sales: ""
+                    sales: "$amount",
                 },
             },
         ]);
