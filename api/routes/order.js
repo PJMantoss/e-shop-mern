@@ -50,16 +50,16 @@ router.delete("/:id", verifyTokenAndAdmin, async (req, res) => {
     }
 });
 
-// //GET USER CART
-// router.get("/find/:id", verifyTokenAndAuthorization, async (req, res) => {
-//     try {
-//       const cart = await Cart.findOne(req.params.id);
+//GET USER CART
+router.get("/find/:id", verifyTokenAndAuthorization, async (req, res) => {
+    try {
+      const cart = await Cart.findOne(req.params.id);
       
-//       res.status(200).json(cart);
-//     } catch (err) {
-//       res.status(500).json(err);
-//     }
-//   });
+      res.status(200).json(cart);
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  });
 
 // //GET ALL
 // router.get("/", verifyTokenAndAdmin, async (req, res) => {
