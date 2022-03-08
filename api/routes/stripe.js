@@ -5,7 +5,8 @@ const stripe = require("stripe")(process.env.STRIPE_KEY);
 router.post("/payment", (req, res) => {
     stripe.create.charges({
         source: req.body.tokenId,
-        amount: req.body.amount
+        amount: req.body.amount,
+        currency: "usd"
     });
 });
 
