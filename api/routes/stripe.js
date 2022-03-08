@@ -7,7 +7,7 @@ router.post("/payment", (req, res) => {
         source: req.body.tokenId,
         amount: req.body.amount,
         currency: "usd"
-    }, (stripeErr, stripeRes));
+    }, (stripeErr, stripeRes) => {});
 });
 
 module.exports = router;
