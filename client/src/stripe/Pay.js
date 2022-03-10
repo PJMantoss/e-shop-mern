@@ -4,10 +4,10 @@ const Pay = () => {
     return(
         <div 
             style={{
-                height:
-                display:
-                alignItems:
-                justifyContent:
+                height: "100vh",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: ""
             }}
         >
             <button></button>
