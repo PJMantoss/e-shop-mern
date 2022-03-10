@@ -11,12 +11,12 @@ const Pay = () => {
             }}
         >
             <StripeCheckout
-                name=""
+                name="Mern E Shop"
                 image=""
-                billingAddress=
+                billingAddress
                 shippingAddress
                 description
-                amount
+                amount={}
             >
                 <button
                     style={{
