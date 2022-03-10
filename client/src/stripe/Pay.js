@@ -5,7 +5,7 @@ const KEY = "pk_test_YO4hCduILG2Vkvaecq4Th13V007ILyXZUw";
 const Pay = () => {
 
     const onToken = () => {};
-    
+
     return(
         <div 
             style={{
@@ -43,3 +43,5 @@ const Pay = () => {
         </div>
     );
 }
+
+export default Pay;
