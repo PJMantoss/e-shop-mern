@@ -7,9 +7,9 @@ import Cart from './pages/Cart';
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Cart />
-    </div>
+    </Router>
   );
 }
 
