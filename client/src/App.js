@@ -5,6 +5,7 @@ import Register from './pages/Register';
 import Login from './pages/Login';
 import Cart from './pages/Cart';
 import Pay from './stripe/Pay';
+import Success from './stripe/Success';
 
 const App = () => {
   return (
