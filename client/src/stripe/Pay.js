@@ -5,6 +5,9 @@ const Pay = () => {
         <div 
             style={{
                 height:
+                display:
+                alignItems:
+                justifyContent:
             }}
         >
             <button></button>
