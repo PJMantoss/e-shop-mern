@@ -20,7 +20,7 @@ const Pay = () => {
                 description="Your total is $20"
                 amount={2000}
                 token={onToken}
-                stripeKey={}
+                stripeKey={KEY}
             >
                 <button
                     style={{
