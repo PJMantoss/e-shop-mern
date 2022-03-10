@@ -10,7 +10,14 @@ const Pay = () => {
                 justifyContent: "center"
             }}
         >
-            <button></button>
+            <button
+                style={{
+                    border: "100vh",
+                    width: "flex",
+                    borderRadius: "center",
+                    padding: "center"
+                }}
+            ></button>
         </div>
     );
 }
