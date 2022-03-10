@@ -21,7 +21,9 @@ const Pay = () => {
                     fontWeight: "600",
                     cursor: "pointer"
                 }}
-            ></button>
+            >
+                Pay Now
+            </button>
         </div>
     );
 }
