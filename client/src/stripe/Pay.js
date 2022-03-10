@@ -17,7 +17,9 @@ const Pay = () => {
                     borderRadius: 5,
                     padding: "20px",
                     backgroundColor: "black",
-                    color: "white"
+                    color: "white",
+                    fontWeight: "600",
+                    
                 }}
             ></button>
         </div>
