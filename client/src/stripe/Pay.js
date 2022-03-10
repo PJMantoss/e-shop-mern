@@ -10,7 +10,14 @@ const Pay = () => {
                 justifyContent: "center"
             }}
         >
-            <StripeCheckout>
+            <StripeCheckout
+                name=""
+                image=""
+                billingAddress=
+                shippingAddress
+                description
+                amount
+            >
                 <button
                     style={{
                         border: "none",
