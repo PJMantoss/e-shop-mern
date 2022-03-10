@@ -7,7 +7,7 @@ const Pay = () => {
                 height: "100vh",
                 display: "flex",
                 alignItems: "center",
-                justifyContent: ""
+                justifyContent: "center"
             }}
         >
             <button></button>
