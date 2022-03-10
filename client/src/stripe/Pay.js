@@ -19,7 +19,7 @@ const Pay = () => {
                     backgroundColor: "black",
                     color: "white",
                     fontWeight: "600",
-                    
+                    cursor: "pointer"
                 }}
             ></button>
         </div>
