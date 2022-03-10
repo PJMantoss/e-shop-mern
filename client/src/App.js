@@ -12,7 +12,9 @@ const App = () => {
         <Route path="/pay">
           <Pay />
         </Route>
-        <Route path="/success"></Route>
+        <Route path="/success">
+          <Success />
+        </Route>
       </Switch>
     </Router>
   );
