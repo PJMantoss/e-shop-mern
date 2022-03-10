@@ -9,7 +9,9 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/pay"></Route>
+        <Route path="/pay">
+          <Pay />
+        </Route>
         <Route path="/success"></Route>
       </Switch>
     </Router>
