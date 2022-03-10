@@ -1,5 +1,7 @@
 import StripeCheckout from 'react-stripe-checkout';
 
+const stripeKey = "pk_test_YO4hCduILG2Vkvaecq4Th13V007ILyXZUw";
+
 const Pay = () => {
     return(
         <div 
