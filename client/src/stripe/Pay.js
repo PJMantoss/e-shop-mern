@@ -16,7 +16,9 @@ const Pay = () => {
                 billingAddress
                 shippingAddress
                 description
-                amount={}
+                amount={2000}
+                token={onToken}
+                stripeKey={}
             >
                 <button
                     style={{
