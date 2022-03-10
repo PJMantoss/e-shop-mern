@@ -9,8 +9,8 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path=""></Route>
-        <Route path=""></Route>
+        <Route path="/pay"></Route>
+        <Route path="/success"></Route>
       </Switch>
     </Router>
   );
