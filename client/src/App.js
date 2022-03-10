@@ -10,6 +10,7 @@ const App = () => {
     <Router>
       <Switch>
         <Route path=""></Route>
+        <Route path=""></Route>
       </Switch>
     </Router>
   );
