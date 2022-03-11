@@ -12,9 +12,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/pay">
-          <Pay />
-        </Route>
+        <Route path="/pay" component={<Pay />} />
         <Route path="/success">
           <Success />
         </Route>
