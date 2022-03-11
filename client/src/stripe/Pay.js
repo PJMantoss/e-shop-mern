@@ -1,4 +1,3 @@
-import react from 'react';
 import StripeCheckout from 'react-stripe-checkout';
 
 const KEY = "pk_test_YO4hCduILG2Vkvaecq4Th13V007ILyXZUw";
@@ -18,7 +17,16 @@ const Pay = () => {
                 justifyContent: "center"
             }}
         >
-            
+            <StripeCheckout
+                name="Mern E Shop"
+                image=""
+                billingAddress
+                shippingAddress
+                description = "Your total is $20"
+                amount={2000}
+                token={onToken}
+                stripeKey={KEY}
+            >
                 <button
                     style={{
                         border: "none",
@@ -33,7 +41,7 @@ const Pay = () => {
                 >
                     Pay Now
                 </button>
-            
+            </StripeCheckout>
         </div>
     );
 }
