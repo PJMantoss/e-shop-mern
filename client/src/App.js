@@ -13,9 +13,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/pay" component={<Pay />} />
-        <Route path="/success">
-          <Success />
-        </Route>
+        <Route path="/success" component={<Success />} />
       </Routes>
     </Router>
   );
