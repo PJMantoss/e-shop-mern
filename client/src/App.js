@@ -4,21 +4,21 @@ import Product from './pages/Product';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Cart from './pages/Cart';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Pay from './stripe/Pay';
 import Success from './stripe/Success';
 
 const App = () => {
   return (
     <Router>
-      <Switch>
+      <Routes>
         <Route path="/pay">
           <Pay />
         </Route>
         <Route path="/success">
           <Success />
         </Route>
-      </Switch>
+      </Routes>
     </Router>
   );
 }
