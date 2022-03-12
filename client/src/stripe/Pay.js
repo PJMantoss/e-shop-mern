@@ -13,7 +13,9 @@ const Pay = () => {
 
     useEffect(() => {
         const makeRequest = async () => {
-            try{}catch(err){
+            try{
+                axios
+            }catch(err){
                 console.log(err);
             };
         };
