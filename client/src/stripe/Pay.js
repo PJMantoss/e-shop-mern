@@ -21,6 +21,8 @@ const Pay = () => {
                     }
                     );
 
+                    console.log(response.data)
+
             }catch(err){
                 console.log(err);
             };
