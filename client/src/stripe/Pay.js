@@ -5,6 +5,8 @@ const KEY = "pk_test_YO4hCduILG2Vkvaecq4Th13V007ILyXZUw";
 
 const Pay = () => {
 
+    const [] = useState(null);
+
     const onToken = (token) => {
         console.log(token);
     };
