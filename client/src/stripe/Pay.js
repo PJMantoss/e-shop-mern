@@ -11,7 +11,9 @@ const Pay = () => {
         setStripeToken(token);
     };
 
-    useEffect(() => {}, [stripeToken]);
+    useEffect(() => {
+        
+    }, [stripeToken]);
 
     return(
         <div 
