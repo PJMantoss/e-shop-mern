@@ -14,7 +14,10 @@ const Pay = () => {
     useEffect(() => {
         const makeRequest = async () => {
             try{
-                axios.post("http://localhost:5000/api/checkout/payment");
+                const response = await axios.post(
+                    "http://localhost:5000/api/checkout/payment", {}
+                    );
+
             }catch(err){
                 console.log(err);
             };
