@@ -12,7 +12,7 @@ import Success from './stripe/Success';
 const App = () => {
   return (
     <Router>
-      
+      <Pay />
     </Router>
   );
 }
