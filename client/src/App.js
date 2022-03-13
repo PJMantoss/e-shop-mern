@@ -12,11 +12,7 @@ import Success from './stripe/Success';
 const App = () => {
   return (
     <Router>
-      <Routes>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Routes>
+      
     </Router>
   );
 }
