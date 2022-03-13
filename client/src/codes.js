@@ -3,6 +3,8 @@
         <Route path="/pay">
             <Pay />
         </Route>
-        <Route path="/success" component={<Success />} />
+        <Route path="/success">
+            <Success />
+        </Route>
       </Routes>
     </Router>
