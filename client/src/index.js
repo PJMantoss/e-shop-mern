@@ -7,13 +7,7 @@ import Success from './stripe/Success';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <Routes>
-        <Route path="/" component={<App />} />
-        <Route path="/pay" component={<Pay />} />
-        <Route path="/success" component={<Success />} />
-      </Routes>
-    </Router>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
