@@ -4,18 +4,13 @@ import Product from './pages/Product';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Cart from './pages/Cart';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Pay from './stripe/Pay';
-import Success from './stripe/Success';
+
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/pay" component={<Pay />} />
-        <Route path="/success" component={<Success />} />
-      </Routes>
-    </Router>
+    <div>
+      <Home />
+    </div>
   );
 }
 
