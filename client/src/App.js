@@ -11,9 +11,9 @@ import Success from './stripe/Success';
 
 const App = () => {
   return (
-    <Router>
+    <div>
       <Pay />
-    </Router>
+    </div>
   );
 }
 
