@@ -26,7 +26,7 @@ const Pay = () => {
 
             }catch(err){
                 console.log(err);
-            };
+            }
         };
 
         stripeToken && makeRequest();
