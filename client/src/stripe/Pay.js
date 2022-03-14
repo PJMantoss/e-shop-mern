@@ -17,7 +17,7 @@ const Pay = () => {
             try{
                 const response = await axios.post(
                     "http://localhost:5000/api/checkout/payment", {
-                        tokenId: stripeToken.id,
+                        tokenId: stripeToken.Id,
                         amount: 2000,
                     }
                     );
