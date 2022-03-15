@@ -1,5 +1,5 @@
 import StripeCheckout from 'react-stripe-checkout';
-import { useState, useEffect, useHistory } from 'react';
+import { useState, useEffect, useNavigate } from 'react';
 import axios from 'axios';
 
 const KEY = "pk_test_YO4hCduILG2Vkvaecq4Th13V007ILyXZUw";
@@ -7,7 +7,7 @@ const KEY = "pk_test_YO4hCduILG2Vkvaecq4Th13V007ILyXZUw";
 const Pay = () => {
     const [stripeToken, setStripeToken] = useState(null);
 
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const onToken = (token) => {
         setStripeToken(token);
