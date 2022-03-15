@@ -42,7 +42,7 @@ const Pay = () => {
             }}
         >
             {stripeToken ? (
-                <span></span>
+                <span>Processing. Please wait...</span>
                 ) : (
                     <StripeCheckout
                         name="Mern E Shop"
