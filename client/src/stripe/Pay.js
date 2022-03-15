@@ -41,7 +41,35 @@ const Pay = () => {
                 justifyContent: "center"
             }}
         >
-            {stripeToken ? (<span></span>) : ()}
+            {stripeToken ? (
+                <span></span>
+                ) : (
+                    <StripeCheckout
+                        name="Mern E Shop"
+                        image=""
+                        billingAddress
+                        shippingAddress
+                        description = "Your total is $20"
+                        amount={2000}
+                        token={onToken}
+                        stripeKey={KEY}
+                    >
+                        <button
+                            style={{
+                                border: "none",
+                                width: 120,
+                                borderRadius: 5,
+                                padding: "20px",
+                                backgroundColor: "black",
+                                color: "white",
+                                fontWeight: "600",
+                                cursor: "pointer"
+                            }}
+                        >
+                            Pay Now
+                        </button>
+                    </StripeCheckout>
+                )}
         </div>
     );
 }
