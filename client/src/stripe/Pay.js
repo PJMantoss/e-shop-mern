@@ -24,7 +24,7 @@ const Pay = () => {
                     );
 
                     console.log(response.data);
-
+                    history.push("/success")
             }catch(err){
                 console.log(err);
             }
