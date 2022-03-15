@@ -5,8 +5,9 @@ import axios from 'axios';
 const KEY = "pk_test_YO4hCduILG2Vkvaecq4Th13V007ILyXZUw";
 
 const Pay = () => {
-
     const [stripeToken, setStripeToken] = useState(null);
+
+    const history = useHistory()
 
     const onToken = (token) => {
         setStripeToken(token);
