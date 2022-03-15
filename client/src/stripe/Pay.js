@@ -1,5 +1,5 @@
 import StripeCheckout from 'react-stripe-checkout';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useHistory } from 'react';
 import axios from 'axios';
 
 const KEY = "pk_test_YO4hCduILG2Vkvaecq4Th13V007ILyXZUw";
