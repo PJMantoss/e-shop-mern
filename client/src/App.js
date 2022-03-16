@@ -12,7 +12,7 @@ import Success from './stripe/Success';
 const App = () => {
   return (
     <div>
-      <Pay />
+      <Home />
     </div>
   );
 }
