@@ -11,9 +11,16 @@ import Success from './stripe/Success';
 
 const App = () => {
   return (
-    <div>
-      <Home />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/pay">
+            <Pay />
+        </Route>
+        <Route path="/success">
+            <Success />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
