@@ -13,12 +13,10 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/pay">
-            <Pay />
+        <Route path="/">
+            <Home />
         </Route>
-        <Route path="/success">
-            <Success />
-        </Route>
+        
       </Routes>
     </Router>
   );
