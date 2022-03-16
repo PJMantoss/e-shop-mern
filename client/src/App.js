@@ -16,7 +16,6 @@ const App = () => {
         <Route path="/">
             <Home />
         </Route>
-        
       </Routes>
     </Router>
   );
