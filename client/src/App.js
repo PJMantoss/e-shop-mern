@@ -4,7 +4,7 @@ import Product from './pages/Product';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Cart from './pages/Cart';
-import { BrowserRouter as Router, Route, Routes, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Pay from './stripe/Pay';
 import Success from './stripe/Success';
 
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/product/:id" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/login">
-          {user ? <Redirect to="/" /> : <Login />}
+          {user ? <Navigate to="/" /> : <Login />}
         </Route>
         <Route path="/register" element={<Register />} />
       </Routes>
