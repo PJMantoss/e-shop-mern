@@ -1,4 +1,5 @@
-import React, { useLocation } from 'react';
+import React from 'react';
+import { useLocation } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Announcement from '../components/Announcement';
 import Products from '../components/Products';
