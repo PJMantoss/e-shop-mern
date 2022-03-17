@@ -10,6 +10,8 @@ import Success from './stripe/Success';
 
 
 const App = () => {
+  const user = true;
+
   return (
     <Router>
       <Routes>
@@ -18,7 +20,7 @@ const App = () => {
         <Route path="/product/:id" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/login">
-          {<Login />}
+          {user ? <Login /> : "/"}
         </Route>
         <Route path="/register" element={<Register />} />
       </Routes>
