@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useLocation } from 'react';
 import Navbar from '../components/Navbar';
 import Announcement from '../components/Announcement';
 import Products from '../components/Products';
@@ -45,7 +45,7 @@ const Option = styled.option``;
 
 const ProductList = () => {
     const location = useLocation();
-    
+
   return (
     <Container>
         <Announcement />
