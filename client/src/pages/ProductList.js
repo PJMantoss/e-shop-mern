@@ -45,6 +45,7 @@ const Option = styled.option``;
 
 const ProductList = () => {
     const location = useLocation();
+    
   return (
     <Container>
         <Announcement />
