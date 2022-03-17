@@ -46,7 +46,7 @@ const Option = styled.option``;
 
 const ProductList = () => {
     const location = useLocation();
-    console.log(location.pathname.split("/")[2]);
+    const cat = location.pathname.split("/")[2];
 
   return (
     <Container>
