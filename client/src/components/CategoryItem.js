@@ -48,11 +48,11 @@ const CategoryItem = ({ item }) => {
   return (
     <Container>
         <Link>
-        <Image src={item.img} />
-        <Info>
-            <Title> {item.title} </Title>
-            <Button> SHOP NOW </Button>
-        </Info>
+            <Image src={item.img} />
+            <Info>
+                <Title> {item.title} </Title>
+                <Button> SHOP NOW </Button>
+            </Info>
         </Link>
     </Container>
   );
