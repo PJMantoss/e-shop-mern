@@ -57,7 +57,7 @@ const ProductList = () => {
         <FilterContainer>
             <Filter>
                 <FilterText>Filter Clothes:</FilterText>
-                <Select onChange={handleFilters}>
+                <Select name="color" onChange={handleFilters}>
                     <Option disabled>Color</Option>
                     <Option>White</Option>
                     <Option>Black</Option>
