@@ -1,4 +1,4 @@
-import React { useState } from 'react';
+import React, { useState } from 'react';
 import { popularProducts } from '../data';
 import Product from './Product';
 
@@ -12,7 +12,7 @@ const Container = styled.div`
 `;
 
 const Products = ({cat, filters, sort}) => {
-  
+
   const [products, setProducts] = useState();
 
   return (
