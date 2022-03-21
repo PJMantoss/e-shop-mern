@@ -52,7 +52,7 @@ const ProductList = () => {
     const handleFilters = (e) => {
         const value = e.target.value;
         setFilters({
-            [e.target.name]: value;
+            [e.target.name]: value
         });
     }
 
