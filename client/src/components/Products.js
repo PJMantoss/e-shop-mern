@@ -39,7 +39,7 @@ const Products = ({cat, filters, sort}) => {
           item[key].includes(value)
         )
       )
-    )
+    );
   }, [products, cat, filters])
 
   return (
