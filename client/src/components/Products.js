@@ -11,7 +11,7 @@ const Container = styled.div`
     padding: 20px;
 `;
 
-const Products = ({cat,filters,sort}) => {
+const Products = ({cat, filters, sort}) => {
   return (
     <Container>
         {popularProducts.map(item => (
