@@ -56,6 +56,8 @@ const ProductList = () => {
         });
     }
 
+    console.log(filters)
+
   return (
     <Container>
         <Announcement />
