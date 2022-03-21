@@ -30,7 +30,7 @@ const Products = ({cat, filters, sort}) => {
     }
 
     getProducts();
-  }, [cat])
+  }, [cat]);
 
   return (
     <Container>
