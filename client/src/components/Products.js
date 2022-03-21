@@ -22,6 +22,8 @@ const Products = ({cat, filters, sort}) => {
         const response = await axios.get()
       }catch(err){}
     }
+
+    getProducts();
   }, [cat])
 
   return (
