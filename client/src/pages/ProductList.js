@@ -47,16 +47,17 @@ const Option = styled.option``;
 const ProductList = () => {
     const location = useLocation();
     const cat = location.pathname.split("/")[2];
-    const [filters, setFilters] = useState({});
+    const [filter, setFilters] = useState({});
 
     const handleFilters = (e) => {
         const value = e.target.value;
         setFilters({
+            ...filter,
             [e.target.name]: value
         });
     }
 
-    console.log(filters)
+    console.log(filter)
 
   return (
     <Container>
