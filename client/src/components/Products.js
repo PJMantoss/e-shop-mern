@@ -17,7 +17,9 @@ const Products = ({cat, filters, sort}) => {
   const [filteredProducts, setFilteredProducts] = useState([]);
 
   useEffect(() => {
-    const getProducts = async () => {}
+    const getProducts = async () => {
+      try{}catch(err){}
+    }
   }, [cat])
 
   return (
