@@ -32,6 +32,8 @@ const Products = ({cat, filters, sort}) => {
     getProducts();
   }, [cat]);
 
+  useEffect(() => {}, [products, cat, filters])
+
   return (
     <Container>
         {popularProducts.map(item => (
