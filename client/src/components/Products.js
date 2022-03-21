@@ -34,7 +34,7 @@ const Products = ({cat, filters, sort}) => {
 
   useEffect(() => {
     cat && setFilteredProducts(
-      products.filter();
+      products.filter(item => item)
     )
   }, [products, cat, filters])
 
