@@ -88,7 +88,7 @@ const ProductList = () => {
             </Filter>
             <Filter>
                 <FilterText>Sort Clothes:</FilterText>
-                <Select>
+                <Select onChange={}>
                     <Option>Newest</Option>
                     <Option>Price(asc)</Option>
                     <Option>Price(desc)</Option>
