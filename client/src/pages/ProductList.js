@@ -49,7 +49,9 @@ const ProductList = () => {
     const cat = location.pathname.split("/")[2];
     const [filters, setFilters] = useState({});
 
-    const handleFilters = (e) => {}
+    const handleFilters = (e) => {
+        const value = e.target.value;
+    }
 
   return (
     <Container>
