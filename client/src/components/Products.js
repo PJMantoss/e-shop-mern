@@ -18,7 +18,9 @@ const Products = ({cat, filters, sort}) => {
 
   useEffect(() => {
     const getProducts = async () => {
-      try{}catch(err){}
+      try{
+        const response = await axios.get()
+      }catch(err){}
     }
   }, [cat])
 
