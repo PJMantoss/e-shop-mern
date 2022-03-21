@@ -93,7 +93,7 @@ const ProductList = () => {
                 </Select>
             </Filter>
         </FilterContainer>
-        <Products />
+        <Products cat={cat} filters={filters} />
         <Newsletter />
         <Footer />
     </Container>
