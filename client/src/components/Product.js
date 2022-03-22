@@ -78,7 +78,9 @@ const Product = ({ item }) => {
             </Icon>
 
             <Icon>
-                <SearchOutlinedIcon />
+                <Link to=`` >
+                    <SearchOutlinedIcon />
+                </Link>
             </Icon>
 
             <Icon>
