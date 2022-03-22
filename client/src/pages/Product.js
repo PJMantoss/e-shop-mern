@@ -121,6 +121,8 @@ const Button = styled.button`
 const Product = () => {
     const location = useLocation();
     const id = location.pathname.split("/")[2];
+
+    const [product, setProduct] = useState({});
   return (
     <Container>
         <Announcement />
