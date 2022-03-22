@@ -148,11 +148,8 @@ const Product = () => {
             </ImageContainer>
             <InfoContainer>
                 <Title>{product.title}</Title>
-                <Desc>
-                    Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me.
-                    Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me.
-                </Desc>
-                <Price>$20</Price>
+                <Desc> {product.desc} </Desc>
+                <Price> {product.price} </Price>
                 <FilterContainer>
                     <Filter>
                         <FilterTitle>Color</FilterTitle>
