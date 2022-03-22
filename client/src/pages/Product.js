@@ -125,7 +125,11 @@ const Product = () => {
     const [product, setProduct] = useState({});
 
     useEffect(() => {
-        const getProduct = async () => {}
+        const getProduct = async () => {
+            try{}catch(err){
+                console.log(err)
+            }
+        }
     }, [id]);
 
   return (
