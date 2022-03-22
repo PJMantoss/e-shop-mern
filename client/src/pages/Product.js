@@ -144,10 +144,10 @@ const Product = () => {
         <Navbar />
         <Wrapper>
             <ImageContainer>
-                <Image src="" />
+                <Image src={product.img} />
             </ImageContainer>
             <InfoContainer>
-                <Title>Denim Jumpsuit</Title>
+                <Title>{product.title}</Title>
                 <Desc>
                     Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me.
                     Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me. Lorem ipsum dolo sa ta me.
