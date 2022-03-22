@@ -42,6 +42,8 @@ const Products = ({cat, filters, sort}) => {
     );
   }, [products, cat, filters]);
 
+  useEffect(() => {}, [])
+
   return (
     <Container>
         {filteredProducts.map(item => (
