@@ -127,7 +127,9 @@ const Product = () => {
 
     useEffect(() => {
         const getProduct = async () => {
-            try{}catch(err){
+            try{
+                const response = publicRequest.get("/products/find"+id)
+            }catch(err){
                 console.log(err)
             }
         }
