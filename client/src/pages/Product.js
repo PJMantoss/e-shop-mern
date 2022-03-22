@@ -125,6 +125,7 @@ const Product = () => {
     const [product, setProduct] = useState({});
 
     useEffect(() => {}, [id]);
+    
   return (
     <Container>
         <Announcement />
