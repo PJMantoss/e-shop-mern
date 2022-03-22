@@ -44,7 +44,7 @@ const Products = ({cat, filters, sort}) => {
 
   useEffect(() => {
     if(sort = "newest"){
-      setFilteredProducts(prev => [...prev].sort((a,b)))
+      setFilteredProducts(prev => [...prev].sort((a,b) => a.createdAt - b.createdAt))
     }
   }, [sort])
 
