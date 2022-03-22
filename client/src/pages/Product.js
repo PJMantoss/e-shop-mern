@@ -124,8 +124,10 @@ const Product = () => {
 
     const [product, setProduct] = useState({});
 
-    useEffect(() => {}, [id]);
-    
+    useEffect(() => {
+        const getProduct = async () => {}
+    }, [id]);
+
   return (
     <Container>
         <Announcement />
