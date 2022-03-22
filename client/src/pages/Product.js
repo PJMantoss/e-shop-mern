@@ -123,6 +123,8 @@ const Product = () => {
     const id = location.pathname.split("/")[2];
 
     const [product, setProduct] = useState({});
+
+    useEffect(() => {}, [id]);
   return (
     <Container>
         <Announcement />
