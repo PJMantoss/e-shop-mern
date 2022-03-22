@@ -118,6 +118,8 @@ const Button = styled.button`
 `;
 
 const Product = () => {
+    const location = useLocation();
+    const cat = location.pathname.split("/")[2];
   return (
     <Container>
         <Announcement />
