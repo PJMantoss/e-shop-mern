@@ -134,6 +134,8 @@ const Product = () => {
                 console.log(err)
             }
         }
+
+        getProduct();
     }, [id]);
 
   return (
