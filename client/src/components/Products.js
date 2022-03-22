@@ -42,7 +42,7 @@ const Products = ({cat, filters, sort}) => {
     );
   }, [products, cat, filters]);
 
-  useEffect(() => {}, [])
+  useEffect(() => {}, [sort])
 
   return (
     <Container>
