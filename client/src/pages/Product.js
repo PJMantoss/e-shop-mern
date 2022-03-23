@@ -172,7 +172,7 @@ const Product = () => {
                 <AddContainer>
                     <AmountContainer>
                         <AddIcon />
-                        <Amount>1</Amount>
+                        <Amount> {quantity} </Amount>
                         <RemoveIcon />
                     </AmountContainer>
                     <Button>ADD TO CARD</Button>
