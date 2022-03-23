@@ -168,7 +168,7 @@ const Product = () => {
                     <Filter>
                         <FilterTitle>Color</FilterTitle>
                         {product.color?.map(c => (
-                            <FilterColor color={c} key={c} />
+                            <FilterColor color={c} key={c} onClick={() => setColor(c)} />
                         ))}
                     </Filter>
 
