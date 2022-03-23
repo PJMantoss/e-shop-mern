@@ -152,6 +152,8 @@ const Product = () => {
         }
     };
 
+    const handleClick = () => {}
+
   return (
     <Container>
         <Announcement />
