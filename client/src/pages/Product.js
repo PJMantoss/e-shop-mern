@@ -140,6 +140,8 @@ const Product = () => {
         getProduct();
     }, [id]);
 
+    const handleQuantity = type => {}
+
   return (
     <Container>
         <Announcement />
