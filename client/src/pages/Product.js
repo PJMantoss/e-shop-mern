@@ -173,7 +173,7 @@ const Product = () => {
                     <AmountContainer>
                         <AddIcon />
                         <Amount> {quantity} </Amount>
-                        <RemoveIcon />
+                        <RemoveIcon onClick={handleQuantity} />
                     </AmountContainer>
                     <Button>ADD TO CARD</Button>
                 </AddContainer>
