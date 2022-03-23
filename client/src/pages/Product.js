@@ -123,7 +123,7 @@ const Product = () => {
     const location = useLocation();
     const id = location.pathname.split("/")[2];
 
-    const [product, setProduct] = useState({});
+    const [product, setProduct] = useState(null);
 
     useEffect(() => {
         const getProduct = async () => {
