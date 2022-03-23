@@ -143,6 +143,8 @@ const Product = () => {
     const handleQuantity = type => {
         if(type === "inc"){
             setQuantity(quantity + 1);
+        } else {
+            setQuantity(quantity - 1);
         }
     };
 
