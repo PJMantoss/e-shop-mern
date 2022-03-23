@@ -125,6 +125,8 @@ const Product = () => {
 
     const [product, setProduct] = useState(null);
 
+    const [quantity, setQuantity] = useState();
+
     useEffect(() => {
         const getProduct = async () => {
             try{
