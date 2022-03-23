@@ -162,7 +162,7 @@ const Product = () => {
                         <FilterTitle>Size</FilterTitle>
                         <FilterSize>
                             {product.size.map(s => (
-                                <FilterSizeOption key={}>{s}</FilterSizeOption>
+                                <FilterSizeOption key={s}>{s}</FilterSizeOption>
                             ))}
                         </FilterSize>
                     </Filter>
