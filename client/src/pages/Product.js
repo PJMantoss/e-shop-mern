@@ -144,7 +144,7 @@ const Product = () => {
         if(type === "dec"){
             quantity > 1 && setQuantity(quantity - 1);
         } else {
-            setQuantity(quantity - 1);
+            setQuantity(quantity + 1);
         }
     };
 
