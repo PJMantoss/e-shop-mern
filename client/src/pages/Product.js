@@ -161,11 +161,9 @@ const Product = () => {
                     <Filter>
                         <FilterTitle>Size</FilterTitle>
                         <FilterSize>
-                            <FilterSizeOption>XS</FilterSizeOption>
-                            <FilterSizeOption>S</FilterSizeOption>
-                            <FilterSizeOption>M</FilterSizeOption>
-                            <FilterSizeOption>L</FilterSizeOption>
-                            <FilterSizeOption>XL</FilterSizeOption>
+                            {product.size.map(s => (
+                                <FilterSizeOption>{s}</FilterSizeOption>
+                            ))}
                         </FilterSize>
                     </Filter>
                 </FilterContainer>
