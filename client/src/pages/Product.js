@@ -140,7 +140,11 @@ const Product = () => {
         getProduct();
     }, [id]);
 
-    const handleQuantity = type => {};
+    const handleQuantity = type => {
+        if(type === "inc"){
+            setQuantity()
+        }
+    };
 
   return (
     <Container>
