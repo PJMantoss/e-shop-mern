@@ -16,4 +16,4 @@ const cartSlice = createSlice({
     }
 });
 
-export const {} = cartSlice.actions;
+export const { addProduct } = cartSlice.actions;
