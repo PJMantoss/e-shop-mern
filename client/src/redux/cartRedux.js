@@ -10,7 +10,7 @@ const cartSlice = createSlice({
     reducers: {
         addProduct: (state, action) => {
             state.quantity += 1;
-            state.product.push();
+            state.product.push(action.payload.product);
         },
     }
 });
