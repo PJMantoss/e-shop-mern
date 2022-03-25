@@ -157,7 +157,7 @@ const Product = () => {
     };
 
     const handleClick = () => {
-        dispatch();
+        dispatch(addProduct({}));
     }
 
   return (
