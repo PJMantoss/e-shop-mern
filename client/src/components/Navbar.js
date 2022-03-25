@@ -4,7 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import Badge from '@mui/material/Badge';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { mobile } from '../responsive';
-const {} from 'react-redux';
+import { useSelector } from 'react-redux';
 
 const Container = styled.div`
     height: 60px;
