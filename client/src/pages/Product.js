@@ -133,6 +133,8 @@ const Product = () => {
 
     const [size, setSize] = useState("");
 
+    const dispatch = useDispacht();
+
     useEffect(() => {
         const getProduct = async () => {
             try{
