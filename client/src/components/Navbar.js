@@ -69,6 +69,7 @@ const MenuItem = styled.div`
 `;
 
 const Navbar = () => {
+    const cart = useSelector();
   return (
   <Container>
       <Wrapper>
