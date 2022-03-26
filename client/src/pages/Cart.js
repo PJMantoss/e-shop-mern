@@ -174,7 +174,7 @@ const Cart = () => {
             <Bottom>
                 <Info>
                     {
-                        cart.proucts.map()
+                        cart.proucts.map(product => ())
                     }
 
                     <Hr />
