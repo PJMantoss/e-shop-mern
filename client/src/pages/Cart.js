@@ -191,7 +191,7 @@ const Cart = () => {
                                         <Amount>2</Amount>
                                         <RemoveIcon />
                                     </ProductAmountContainer>
-                                    <ProductPrice>$30</ProductPrice>
+                                    <ProductPrice>{product.price * product.quantity}</ProductPrice>
                                 </PriceDetail>
                             </Product>
                         ))
