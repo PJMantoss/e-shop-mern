@@ -181,8 +181,8 @@ const Cart = () => {
                                     <Details>
                                         <ProductName> <b>Product:</b> {product.title} </ProductName>
                                         <ProductId> <b>ID:</b> {product._id} </ProductId>
-                                        <ProductColor color="black" />
-                                        <ProductSize> <b>Size:</b> 37.5 </ProductSize>
+                                        <ProductColor color={product.color} />
+                                        <ProductSize> <b>Size:</b> {product.size} </ProductSize>
                                     </Details>
                                 </ProductDetail>
                                 <PriceDetail>
