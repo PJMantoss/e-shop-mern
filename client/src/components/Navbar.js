@@ -5,6 +5,7 @@ import Badge from '@mui/material/Badge';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { mobile } from '../responsive';
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 const Container = styled.div`
     height: 60px;
