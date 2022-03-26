@@ -133,7 +133,7 @@ const Product = () => {
 
     const [size, setSize] = useState("");
 
-    const dispatch = useDispacht();
+    const dispatch = useDispatch();
 
     useEffect(() => {
         const getProduct = async () => {
