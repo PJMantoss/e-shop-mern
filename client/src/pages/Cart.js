@@ -167,6 +167,8 @@ const Cart = () => {
         setStripeToken(token);
     };
 
+    useEffect(() => {}, [])
+
   return (
     <Container>
         <Announcement />
