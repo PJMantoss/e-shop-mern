@@ -161,6 +161,8 @@ const ProductColor = styled.div`
 const Cart = () => {
     const cart = useSelector(state => state.cart);
 
+    const [] = useState(null);
+
     const onToken = token => {};
 
   return (
