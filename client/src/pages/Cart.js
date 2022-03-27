@@ -246,7 +246,7 @@ const Cart = () => {
                         billingAddress
                         shippingAddress
                         description = {`Your total is $${cart.total}`}
-                        amount={2000}
+                        amount={cart.total*100}
                         token={onToken}
                         stripeKey={KEY}
                     >
