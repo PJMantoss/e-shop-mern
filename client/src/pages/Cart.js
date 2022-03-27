@@ -240,6 +240,16 @@ const Cart = () => {
                         <SummaryItemText>Total</SummaryItemText>
                         <SummaryItemPrice>$ {cart.total}</SummaryItemPrice>
                     </SummaryItem>
+                    <StripeCheckout
+                        name="Mern E Shop"
+                        image=""
+                        billingAddress
+                        shippingAddress
+                        description = "Your total is $20"
+                        amount={2000}
+                        token={onToken}
+                        stripeKey={KEY}
+                    >
                     <SummaryButton>CHECKOUT NOW</SummaryButton>
                 </Summary>
             </Bottom>
