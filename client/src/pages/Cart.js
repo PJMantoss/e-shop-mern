@@ -245,7 +245,7 @@ const Cart = () => {
                         image="https://githubusercontent.com/u/1486366?v=4"
                         billingAddress
                         shippingAddress
-                        description = {`Your total is $${}`}
+                        description = {`Your total is $${cart.total}`}
                         amount={2000}
                         token={onToken}
                         stripeKey={KEY}
