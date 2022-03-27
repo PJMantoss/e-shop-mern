@@ -10,6 +10,8 @@ import StripeCheckout from 'react-stripe-checkout';
 
 import styled from 'styled-components';
 
+const KEY = process.env.STRIPE_KEY
+
 const Container = styled.div``;
 
 const Wrapper = styled.div`
