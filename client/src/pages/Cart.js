@@ -159,7 +159,8 @@ const ProductColor = styled.div`
 `;
 
 const Cart = () => {
-    const cart = useSelector(state => state.cart)
+    const cart = useSelector(state => state.cart);
+    
   return (
     <Container>
         <Announcement />
