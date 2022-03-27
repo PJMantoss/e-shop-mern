@@ -251,6 +251,7 @@ const Cart = () => {
                         stripeKey={KEY}
                     >
                     <SummaryButton>CHECKOUT NOW</SummaryButton>
+                    </StripeCheckout>
                 </Summary>
             </Bottom>
         </Wrapper>
