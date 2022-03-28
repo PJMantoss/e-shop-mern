@@ -8,6 +8,7 @@ import { mobile } from '../responsive';
 import { useSelector } from 'react-redux';
 import StripeCheckout from 'react-stripe-checkout';
 import { userRequest } from '../requestMethods';
+import { useNavigate } from 'react-router-dom';
 
 import styled from 'styled-components';
 
