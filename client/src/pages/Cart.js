@@ -159,7 +159,7 @@ const ProductColor = styled.div`
 `;
 
 const Cart = () => {
-    const cart = useSelector(state => state.cart);
+    const cart = useSelector(({state: RootStore}) => state.cart);
 
     const [stripeToken, setStripeToken] = useState(null);
 
