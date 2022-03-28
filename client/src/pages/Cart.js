@@ -171,7 +171,7 @@ const Cart = () => {
     useEffect(() => {
         const makeRequest = async () => {
             try{
-                const response = await userRequest
+                const response = await userRequest("/checkout/payment", {})
             }catch(err){
                 console.log(err)
             }
