@@ -186,7 +186,7 @@ const Cart = () => {
         };
 
         makeRequest();
-    }, [stripeToken])
+    }, [stripeToken, cart.total])
 
   return (
     <Container>
