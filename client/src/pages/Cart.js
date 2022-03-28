@@ -7,6 +7,7 @@ import RemoveIcon from '@mui/icons-material/Remove';
 import { mobile } from '../responsive';
 import { useSelector } from 'react-redux';
 import StripeCheckout from 'react-stripe-checkout';
+import { userRequest } from './requestMethods';
 
 import styled from 'styled-components';
 
