@@ -170,7 +170,9 @@ const Cart = () => {
 
     useEffect(() => {
         const makeRequest = async () => {
-            try{}catch(err){
+            try{
+                const response = await userRequest
+            }catch(err){
                 console.log(err)
             }
         };
