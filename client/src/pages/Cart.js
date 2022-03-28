@@ -168,7 +168,9 @@ const Cart = () => {
     };
 
     useEffect(() => {
-        const makeRequest = async () => {}
+        const makeRequest = async () => {};
+
+        makeRequest();
     }, [stripeToken])
 
   return (
