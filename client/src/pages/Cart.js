@@ -171,7 +171,10 @@ const Cart = () => {
     useEffect(() => {
         const makeRequest = async () => {
             try{
-                const response = await userRequest("/checkout/payment", {})
+                const response = await userRequest("/checkout/payment", {
+                    tokenId: stripeToken,
+                    amount: cart.total * 100
+                })
             }catch(err){
                 console.log(err)
             }
