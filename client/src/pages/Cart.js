@@ -175,7 +175,7 @@ const Cart = () => {
         const makeRequest = async () => {
             try{
                 const response = await userRequest.post("/checkout/payment", {
-                    tokenId: stripeToken,
+                    tokenId: stripeToken.id,
                     amount: cart.total * 100,
                 });
 
