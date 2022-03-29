@@ -165,7 +165,7 @@ const Cart = () => {
 
     const [stripeToken, setStripeToken] = useState(null);
 
-    const navigate = useNavigate("/success", {data: response.data});
+    const navigate = useNavigate();
 
     const onToken = token => {
         setStripeToken(token);
