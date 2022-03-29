@@ -185,7 +185,7 @@ const Cart = () => {
             }
         };
 
-        stripeToken&&makeRequest();
+        stripeToken && makeRequest();
     }, [stripeToken, cart.total, navigate])
 
   return (
