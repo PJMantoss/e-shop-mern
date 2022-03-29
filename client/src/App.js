@@ -5,6 +5,7 @@ import Register from './pages/Register';
 import Login from './pages/Login';
 import Cart from './pages/Cart';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import Success from './pages/Success';
 
 
 const App = () => {
