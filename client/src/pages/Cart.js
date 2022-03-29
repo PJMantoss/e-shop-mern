@@ -179,7 +179,7 @@ const Cart = () => {
                     amount: cart.total * 100,
                 });
 
-                navigate.push("/success");
+                navigate.push("/success", {data: response.data});
             }catch(err){
                 console.log(err)
             }
