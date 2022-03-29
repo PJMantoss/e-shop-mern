@@ -185,7 +185,7 @@ const Cart = () => {
             }
         };
 
-        stripeToken && cart.total >= 1 && makeRequest();
+        stripeToken && makeRequest();
     }, [stripeToken, cart.total, navigate])
 
   return (
