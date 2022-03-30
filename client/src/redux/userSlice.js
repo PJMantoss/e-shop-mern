@@ -8,7 +8,7 @@ const userSlice = createSlice({
         error: false
     },
     reducers: {
-        addProduct: (state, action) => {
+        loginStart: (action) => {
             state.quantity += 1;
             state.product.push(action.payload.product);
             state.total += action.payload.price * action.payload.quantity
