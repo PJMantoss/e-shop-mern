@@ -9,10 +9,10 @@ const userSlice = createSlice({
     },
     reducers: {
         loginStart: (state) => {
-            state.isFetching = true
+            state.isFetching = true;
         },
         loginSuccess: (state, action) => {
-            state.isFetching = false,
+            state.isFetching = false;
             state.currentUser = action.payload
         },
         loginFailure: (state) => {},
