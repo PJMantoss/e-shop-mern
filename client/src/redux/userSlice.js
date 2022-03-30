@@ -5,7 +5,7 @@ const userSlice = createSlice({
     intialState: {
         currentUser : null,
         isFetching: false,
-        
+        error: false
     },
     reducers: {
         addProduct: (state, action) => {
