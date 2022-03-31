@@ -58,9 +58,9 @@ const Link = styled.a`
 `;
 
 const Login = () => {
-  const [] = useState("");
-  const [] = useState("");
-  
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+
   return (
     <Container>
       <Wrapper>
