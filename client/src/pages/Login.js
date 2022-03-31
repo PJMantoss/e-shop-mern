@@ -62,7 +62,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
 
   const handleClick = (e) => {
-    
+    e.preventDefault();
   };
 
   return (
