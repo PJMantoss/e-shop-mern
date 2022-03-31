@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { mobile } from '../responsive';
 
 import styled from 'styled-components';
@@ -70,8 +70,11 @@ const Login = () => {
               placeholder="username"
               onChange={e => setUsername(e.target.value)} 
           />
-          <Input placeholder="password" />
-          <Button>SIGN IN</Button>
+          <Input 
+              placeholder="password" 
+              onChange={e => setPassword(e.target.value)}
+          />
+          <Button onClick={handleClick}>SIGN IN</Button>
           <Link>FORGOT YOUR PASSWORD?</Link>
           <Link>CREATE A NEW ACCOUNT</Link>
         </Form>
