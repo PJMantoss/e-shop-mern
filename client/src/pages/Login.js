@@ -66,7 +66,10 @@ const Login = () => {
       <Wrapper>
         <Title>SIGN IN</Title>
         <Form>
-          <Input placeholder="username" />
+          <Input 
+              placeholder="username"
+              onChange={e => setUsername(e.target.value)} 
+          />
           <Input placeholder="password" />
           <Button>SIGN IN</Button>
           <Link>FORGOT YOUR PASSWORD?</Link>
