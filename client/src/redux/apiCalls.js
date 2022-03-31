@@ -1,3 +1,5 @@
 import { login } from "./userRedux";
 
-export const login = async (){};
+export const login = async (dispatch, user){
+    
+};
