@@ -1,4 +1,4 @@
-import { login, loginStart } from "./userRedux";
+import { loginStart } from "./userRedux";
 
 export const login = async (dispatch, user){
     dispatch(loginStart())
