@@ -59,6 +59,8 @@ const Link = styled.a`
 
 const Login = () => {
   const [] = useState("");
+  const [] = useState("");
+  
   return (
     <Container>
       <Wrapper>
