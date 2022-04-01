@@ -3,6 +3,7 @@ import { mobile } from '../responsive';
 import { useDispatch } from 'react-redux';
 
 import styled from 'styled-components';
+import { login } from '../redux/apiCalls';
 
 const Container = styled.div`
   display: flex;
@@ -65,6 +66,7 @@ const Login = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
+    login()
   };
 
   return (
