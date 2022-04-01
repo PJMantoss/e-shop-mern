@@ -61,6 +61,7 @@ const Link = styled.a`
 const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const dispatch = useDispatch();
 
   const handleClick = (e) => {
     e.preventDefault();
