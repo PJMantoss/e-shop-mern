@@ -6,10 +6,11 @@ import Login from './pages/Login';
 import Cart from './pages/Cart';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Success from './pages/Success';
+import { useSelector } from 'react-redux';
 
 
 const App = () => {
-  const user = false;
+  const user = useSelector();
 
   return (
     <Router>
