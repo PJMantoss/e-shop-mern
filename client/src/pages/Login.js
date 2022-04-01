@@ -56,7 +56,9 @@ const Button = styled.button`
   }
 `;
 
-const Error = styled.span``;
+const Error = styled.span`
+    color: red;
+`;
 
 const Link = styled.a`
   font-size: 12px;
