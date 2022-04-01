@@ -80,7 +80,7 @@ const Login = () => {
           />
           <Input 
               placeholder="password" 
-              type
+              type=
               onChange={e => setPassword(e.target.value)}
           />
           <Button onClick={handleClick}>SIGN IN</Button>
