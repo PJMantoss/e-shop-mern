@@ -66,7 +66,7 @@ const Login = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    login();
+    login(dispatch);
   };
 
   return (
