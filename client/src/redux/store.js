@@ -19,7 +19,7 @@ const persistConfig = {
     storage,
   }
   
-const persistedReducer = persistReducer(persistConfig, rootReducer)
+const persistedReducer = persistReducer(persistConfig, userReducer)
 
 export default configureStore({
     reducer: {
