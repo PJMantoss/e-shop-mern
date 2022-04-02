@@ -33,3 +33,5 @@ export default configureStore({
       },
     }),
 });
+
+let persistor = persistStore(store)
