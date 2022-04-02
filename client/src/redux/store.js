@@ -21,7 +21,7 @@ const persistConfig = {
   
 const persistedReducer = persistReducer(persistConfig, userReducer);
 
-export store = () => configureStore({
+export const store = () => configureStore({
     reducer: {
         cart: cartReducer,
         user: persistedReducer
