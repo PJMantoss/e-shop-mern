@@ -34,4 +34,4 @@ export default configureStore({
     }),
 });
 
-let persistor = persistStore(configureStore)
+export let persistor = persistStore(configureStore)
