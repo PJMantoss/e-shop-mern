@@ -23,7 +23,7 @@ const rootReducer = combineReducers({ user: userReducer, cart: cartReducer });
   
 const persistedReducer = persistReducer(persistConfig, userReducer);
 
-export const store = () => configureStore({
+export const store = configureStore({
     reducer: {
         cart: cartReducer,
         user: persistedReducer
