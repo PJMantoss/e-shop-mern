@@ -1,6 +1,6 @@
 # E-Shop-MERN (Client)
 
-## Main Tool(s) Used
+## Main Tool(s)
 - React JS
 - Redux
 
@@ -14,3 +14,6 @@
 - @mui/material
 - @mui/icons-material
 - @mui/x-data-grid
+
+### Design Pattern
+- CSS-in-JS
