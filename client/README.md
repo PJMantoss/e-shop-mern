@@ -7,5 +7,7 @@
 ### Dependencies
 - react-router-dom
 - react-redux
+- react-stripe-checkout
+- styled-components
 - @mui/material
 - @mui/icons-material
