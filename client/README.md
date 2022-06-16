@@ -5,4 +5,6 @@
 - Redux
 
 ### Dependencies
-- 
+-
+- @mui/material
+- @mui/icons-material
