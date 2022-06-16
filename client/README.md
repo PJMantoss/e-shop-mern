@@ -5,6 +5,7 @@
 - Redux
 
 ### Dependencies
--
+- react-router-dom
+- react-redux
 - @mui/material
 - @mui/icons-material
