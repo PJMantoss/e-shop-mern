@@ -11,3 +11,4 @@
 - styled-components
 - @mui/material
 - @mui/icons-material
+- @mui/x-data-grid
