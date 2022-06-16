@@ -7,8 +7,10 @@
 ### Dependencies
 - react-router-dom
 - react-redux
+- @reduxjs/toolkit
 - react-stripe-checkout
 - styled-components
+- axios
 - @mui/material
 - @mui/icons-material
 - @mui/x-data-grid
