@@ -16,7 +16,7 @@ router.put("/:id", verifyTokenAndAuthorization, async (req, res) => {
             ).toString();
     }
 
-    try{
+    try{ //update user on MongoDB
         const updatedUser = await User.findByIdAndUpdate(
             req.params.id, 
             {
