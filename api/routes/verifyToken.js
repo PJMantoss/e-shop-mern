@@ -17,7 +17,7 @@ const verifyToken = (req, res, next) => {
 };
 
 const verifyTokenAndAuthorization = (req, res, next) => {
-    verifyToken(req, res, () =>{
+    verifyToken(req, res, () =>{ //If submitted id same as saved id, update user
         if(req.user.id === req.params.id || req.user.isAdmin){
             next();
         }else{
