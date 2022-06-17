@@ -1,6 +1,6 @@
 # E-Shop-MERN (Client)
 
-An E-Commerce store built with the MERN stack.
+An E-Commerce store built with the MERN stack. This section contains the React codes.
 
 ## Main Tool(s)
 - React JS
