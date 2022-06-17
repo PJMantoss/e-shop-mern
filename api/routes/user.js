@@ -1,7 +1,6 @@
 const User = require("../models/User"); //Import User model
 
 const {
-    verifyToken, 
     verifyTokenAndAuthorization,
     verifyTokenAndAdmin
 } = require("./verifyToken");
