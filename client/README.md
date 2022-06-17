@@ -1,5 +1,7 @@
 # E-Shop-MERN (Client)
 
+An E-Commerce store built with the MERN stack.
+
 ## Main Tool(s)
 - React JS
 - Redux
