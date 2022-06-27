@@ -69,7 +69,7 @@ router.get("/", verifyTokenAndAdmin, async (req, res) => {
     }
 });
 
-//GET USERS STATS
+//GET USERS STATS - Total number of users per month
 router.get("/stats", verifyTokenAndAdmin, async (req, res) => {
     const date = new Date();
     const lastYear = new Date(date.setFullYear(date.getFullYear() - 1));
