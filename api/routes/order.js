@@ -50,10 +50,10 @@ router.delete("/:id", verifyTokenAndAdmin, async (req, res) => {
     }
 });
 
-//GET USER ORDER
+//GET USER ORDERS
 router.get("/find/:id", verifyTokenAndAuthorization, async (req, res) => {
     try {
-      const order = await Order.find(req.params.id);
+      const orders = await Order.find(req.params.id);
       
       res.status(200).json(order);
     } catch (err) {
