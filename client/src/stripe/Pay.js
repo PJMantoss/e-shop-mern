@@ -43,9 +43,9 @@ const Pay = () => {
                 justifyContent: "center"
             }}
         >
-            {/* {stripeToken ? (
+            {stripeToken ? (
                 <span>Processing. Please wait...</span>
-                ) : ( */}
+                ) : (
                     <StripeCheckout
                         name="Mern E Shop"
                         image="https://i.ibb.co/J7skp3X/logo-sample.jpg"
@@ -71,7 +71,7 @@ const Pay = () => {
                             Pay Now
                         </button>
                     </StripeCheckout>
-                
+                )}
         </div>
     );
 }
