@@ -11,7 +11,7 @@ const Pay = () => {
     const navigate = useNavigate();
 
     const onToken = (token) => {
-        setStripeToken(token);
+        console.log(token);
     };
 
     useEffect(() => {
