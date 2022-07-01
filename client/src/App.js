@@ -6,6 +6,7 @@ import Login from './pages/Login';
 import Cart from './pages/Cart';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Success from './pages/Success';
+import Pay from './stripe/Pay';
 import { useSelector } from 'react-redux';
 
 
