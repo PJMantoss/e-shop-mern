@@ -48,7 +48,7 @@ const Pay = () => {
                 ) : (
                     <StripeCheckout
                         name="Mern E Shop"
-                        image=""
+                        image="https://www.freepik.com/free-vector/minimalist-letter-v-x-logo-design-with-circle-shape_28699555.htm#query=link%20logo&position=6&from_view=keyword"
                         billingAddress
                         shippingAddress
                         description = "Your total is $20"
