@@ -71,7 +71,7 @@ const Pay = () => {
                             Pay Now
                         </button>
                     </StripeCheckout>
-                // )}
+                
         </div>
     );
 }
