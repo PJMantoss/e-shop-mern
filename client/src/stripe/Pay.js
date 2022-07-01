@@ -6,33 +6,33 @@ import axios from 'axios';
 const KEY = "pk_test_YO4hCduILG2Vkvaecq4Th13V007ILyXZUw";
 
 const Pay = () => {
-    const [stripeToken, setStripeToken] = useState(null);
+    // const [stripeToken, setStripeToken] = useState(null);
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const onToken = (token) => {
         console.log(token);
     };
 
-    useEffect(() => {
-        const makeRequest = async () => {
-            try{
-                const response = await axios.post(
-                    "http://localhost:5000/api/checkout/payment", {
-                        tokenId: stripeToken.id,
-                        amount: 2000,
-                    }
-                    );
+    // useEffect(() => {
+    //     const makeRequest = async () => {
+    //         try{
+    //             const response = await axios.post(
+    //                 "http://localhost:5000/api/checkout/payment", {
+    //                     tokenId: stripeToken.id,
+    //                     amount: 2000,
+    //                 }
+    //                 );
 
-                    console.log(response.data);
-                    navigate.push("/success");
-            }catch(err){
-                console.log(err);
-            }
-        };
+    //                 console.log(response.data);
+    //                 navigate.push("/success");
+    //         }catch(err){
+    //             console.log(err);
+    //         }
+    //     };
 
-        stripeToken && makeRequest();
-    }, [stripeToken, navigate]);
+    //     stripeToken && makeRequest();
+    // }, [stripeToken, navigate]);
 
     return(
         <div 
@@ -43,9 +43,9 @@ const Pay = () => {
                 justifyContent: "center"
             }}
         >
-            {stripeToken ? (
+            {/* {stripeToken ? (
                 <span>Processing. Please wait...</span>
-                ) : (
+                ) : ( */}
                     <StripeCheckout
                         name="Mern E Shop"
                         image="https://i.ibb.co/J7skp3X/logo-sample.jpg"
@@ -71,7 +71,7 @@ const Pay = () => {
                             Pay Now
                         </button>
                     </StripeCheckout>
-                )}
+                // )}
         </div>
     );
 }
