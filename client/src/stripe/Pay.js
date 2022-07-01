@@ -31,7 +31,7 @@ const Pay = () => {
             }
         };
 
-        stripeToken && makeRequest;
+        stripeToken && makeRequest();
     }, [stripeToken]);
 
     return(
