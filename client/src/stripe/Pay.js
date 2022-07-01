@@ -8,7 +8,7 @@ const KEY = "pk_test_YO4hCduILG2Vkvaecq4Th13V007ILyXZUw";
 const Pay = () => {
     const [stripeToken, setStripeToken] = useState(null);
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const onToken = (token) => {
         setStripeToken(token);
@@ -25,14 +25,14 @@ const Pay = () => {
                     );
 
                     console.log(response.data);
-                    navigate.push("/success");
+                    // navigate.push("/success");
             }catch(err){
                 console.log(err);
             }
         };
 
-        stripeToken && makeRequest();
-    }, [stripeToken, navigate]);
+        stripeToken && makeRequest;
+    }, [stripeToken]);
 
     return(
         <div 
@@ -43,9 +43,9 @@ const Pay = () => {
                 justifyContent: "center"
             }}
         >
-            {stripeToken ? (
+            {/* {stripeToken ? (
                 <span>Processing. Please wait...</span>
-                ) : (
+                ) : ( */}
                     <StripeCheckout
                         name="Mern E Shop"
                         image="https://i.ibb.co/J7skp3X/logo-sample.jpg"
@@ -71,7 +71,7 @@ const Pay = () => {
                             Pay Now
                         </button>
                     </StripeCheckout>
-                )}
+                
         </div>
     );
 }
