@@ -8,7 +8,7 @@ const KEY = "pk_test_YO4hCduILG2Vkvaecq4Th13V007ILyXZUw";
 const Pay = () => {
     const [stripeToken, setStripeToken] = useState(null);
 
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
     const onToken = (token) => {
         setStripeToken(token);
@@ -25,7 +25,7 @@ const Pay = () => {
                     );
 
                     console.log(response.data);
-                    // navigate.push("/success");
+                    navigate.push("/success");
             }catch(err){
                 console.log(err);
             }
