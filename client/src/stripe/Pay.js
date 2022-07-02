@@ -32,7 +32,7 @@ const Pay = () => {
         };
 
         stripeToken && makeRequest();
-    }, [stripeToken]);
+    }, [stripeToken, navigate]);
 
     return(
         <div 
