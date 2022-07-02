@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const KEY = "pk_test_YO4hCduILG2Vkvaecq4Th13V007ILyXZUw";
+const KEY = "sk_test_7SrCRvRJElv3ZBS23Md8dC2300AxRqvvSj";
 
 const Pay = () => {
     const [stripeToken, setStripeToken] = useState(null);
