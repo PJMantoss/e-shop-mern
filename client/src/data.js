@@ -1,7 +1,7 @@
 export const sliderItems = [
     {
         id: 1,
-        image: "https://www.nicepng.com/png/detail/322-3221261_green-n-white-dress-fashion-model.png",
+        image: "https://i.ibb.co/cbSb0nR/red-top-female.jpg",
         title: "SUMMER SALE",
         desc: "Don't Compromise on Style. Get 30% Off!",
         bg: "f5fafd"
