@@ -31,13 +31,13 @@ export const categories = [
     },
     {
         id: 2,
-        img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        img: "https://i.ibb.co/kJX1mqL/red-men-s-tshirt-600x667.jpg",
         title: "T SHIRTS",
         cat: "tshirts"
     },
     {
         id: 3,
-        img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        img: "https://i.ibb.co/qk08fQX/blue-jean-female.jpg",
         title: "JEANS",
         cat: "jeans"
     },
