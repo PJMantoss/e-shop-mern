@@ -25,7 +25,7 @@ export const sliderItems = [
 export const categories = [
     {
         id: 1,
-        img: "https://i.ibb.co/qBpJKb5/blue-jacket-man.jpg",
+        img: "https://i.ibb.co/dJb4jnb/blue-jacket-woman2.jpg",
         title: "JACKETS",
         cat: "jackets"
     },
