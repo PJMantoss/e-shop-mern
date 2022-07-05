@@ -129,9 +129,9 @@ const Product = () => {
 
     const [quantity, setQuantity] = useState(1);
 
-    const [color, setColor] = useState([]);
+    const [color, setColor] = useState("");
 
-    const [size, setSize] = useState([]);
+    const [size, setSize] = useState("");
 
     const dispatch = useDispatch();
 
