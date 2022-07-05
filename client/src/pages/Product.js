@@ -141,7 +141,7 @@ const Product = () => {
                 const response = await publicRequest.get("/products/find/" + id);
                 setProduct(response.data)
             }catch(err){
-                console.log(err)
+                console.log(err);
             }
         }
 
