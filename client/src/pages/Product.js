@@ -191,9 +191,9 @@ const Product = () => {
                 </FilterContainer>
                 <AddContainer>
                     <AmountContainer>
-                        <AddIcon onClick={() => handleQuantity("inc")} />
+                    <RemoveIcon onClick={() => handleQuantity("dec")} />
                         <Amount> {quantity} </Amount>
-                        <RemoveIcon onClick={() => handleQuantity("dec")} />
+                    <AddIcon onClick={() => handleQuantity("inc")} />    
                     </AmountContainer>
                     <Button onClick={handleClick}>ADD TO CARD</Button>
                 </AddContainer>
