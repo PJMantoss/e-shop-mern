@@ -140,7 +140,7 @@ const Product = () => {
         const getProduct = async () => {
             try{
                 const response = await publicRequest.get("/products/find/" + id);
-                console.log(response.data);
+                setProduct(response.data);
             }catch{}
         }
 
