@@ -123,7 +123,7 @@ const Button = styled.button`
 
 const Product = () => {
     const location = useLocation();
-    
+
     const id = location.pathname.split("/")[2];
 
     const [product, setProduct] = useState({});
@@ -140,10 +140,8 @@ const Product = () => {
         const getProduct = async () => {
             try{
                 const response = await publicRequest.get("/products/find/" + id);
-                setProduct(response.data)
-            }catch(err){
-                console.log(err);
-            }
+                setProduct(response.data);
+            }catch(err){}
         }
 
         getProduct();
