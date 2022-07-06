@@ -205,7 +205,7 @@ const Cart = () => {
             <Bottom>
                 <Info>
                     {
-                        cart.proucts.map(product => (
+                        cart.products.map(product => (
                             <Product>
                                 <ProductDetail>
                                     <Image src={product.img} />
@@ -219,7 +219,7 @@ const Cart = () => {
                                 <PriceDetail>
                                     <ProductAmountContainer>
                                         <AddIcon />
-                                        <Amount>2</Amount>
+                                        <Amount>{product.quantity}</Amount>
                                         <RemoveIcon />
                                     </ProductAmountContainer>
                                     <ProductPrice>$ {product.price * product.quantity}</ProductPrice>
