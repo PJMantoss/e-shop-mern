@@ -139,7 +139,7 @@ const Product = () => {
     useEffect(() => {
         const getProduct = async () => {
             try{
-                const response = await publicRequest.get("/products/find/" + id);
+                const response = await publicRequest.get(`/products/find/${id}`);
                 console.log(response.data);
             }catch{}
         }
