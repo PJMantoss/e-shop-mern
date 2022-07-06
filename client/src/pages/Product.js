@@ -141,7 +141,7 @@ const Product = () => {
             try{
                 const response = await publicRequest.get("/products/find/" + id);
                 setProduct(response.data);
-            }catch(err){}
+            }catch{}
         }
 
         getProduct();
