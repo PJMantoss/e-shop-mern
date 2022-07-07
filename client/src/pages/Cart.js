@@ -269,7 +269,7 @@ const Cart = () => {
                         <SummaryItemPrice>$ {cart.total}</SummaryItemPrice>
                     </SummaryItem>
                     <StripeCheckout
-                        name="Mern E Shop"
+                        name="E Shop"
                         image="https://i.ibb.co/J7skp3X/logo-sample.jpg"
                         billingAddress
                         shippingAddress
