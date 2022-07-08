@@ -276,7 +276,7 @@ const Cart = () => {
                         description = {`Your total is $${cart.total}`}
                         amount={cart.total*100}
                         token={onToken}
-                        stripeKey={KEY}
+                        stripeKey="pk_test_YO4hCduILG2Vkvaecq4Th13V007ILyXZUw"
                     >
                     <SummaryButton>CHECKOUT NOW</SummaryButton>
                     </StripeCheckout>
